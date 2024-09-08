@@ -1,4 +1,7 @@
-RISCV RV32I 5 Stage Pipelined Core
+# Vermithor
+RISCV RV-32I 5 Stage Pipelined Core
+
+
 Start by setting up the working enviroment
 
 ### Dependencies
