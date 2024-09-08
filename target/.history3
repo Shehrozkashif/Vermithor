@@ -1,0 +1,8 @@
+1725651196469:reload
+1725651263454:testOnly singlecycle.toptest -- -DwriteVcd=1
+1725651532792:testOnly singlecycle.ALUtest -- -DwriteVcd=1
+1725651572018:clear
+1725651577277:testOnly singlecycle.ALUtest -- -DwriteVcd=1
+1725651606869:testOnly singlecycle.cutest -- -DwriteVcd=1
+1725651743252:git remote -v
+1725702206666:testOnly singlecycle.cutest -- -DwriteVcd=1

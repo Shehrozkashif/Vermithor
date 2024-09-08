@@ -1,0 +1,61 @@
+[0m[[0m[31merror[0m] [0m[0m/home/shehroz/Desktop/New Folder 3/singlecycle/src/main/scala/singlecycle /top.scala:17:10: value dataIn is not a member of chisel3.Bundle{val out: chisel3.Vec[chisel3.UInt]; val addr: chisel3.UInt; val rd_enable: chisel3.Bool; val wr_enable: chisel3.Bool; val mask: chisel3.Vec[chisel3.Bool]}[0m
+[0m[[0m[31merror[0m] [0m[0mdmmod.io.dataIn(0) := 0.U[0m
+[0m[[0m[31merror[0m] [0m[0m         ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shehroz/Desktop/New Folder 3/singlecycle/src/main/scala/singlecycle /top.scala:18:10: value dataIn is not a member of chisel3.Bundle{val out: chisel3.Vec[chisel3.UInt]; val addr: chisel3.UInt; val rd_enable: chisel3.Bool; val wr_enable: chisel3.Bool; val mask: chisel3.Vec[chisel3.Bool]}[0m
+[0m[[0m[31merror[0m] [0m[0mdmmod.io.dataIn(1) := 0.U[0m
+[0m[[0m[31merror[0m] [0m[0m         ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shehroz/Desktop/New Folder 3/singlecycle/src/main/scala/singlecycle /top.scala:19:10: value dataIn is not a member of chisel3.Bundle{val out: chisel3.Vec[chisel3.UInt]; val addr: chisel3.UInt; val rd_enable: chisel3.Bool; val wr_enable: chisel3.Bool; val mask: chisel3.Vec[chisel3.Bool]}[0m
+[0m[[0m[31merror[0m] [0m[0mdmmod.io.dataIn(2) := 0.U[0m
+[0m[[0m[31merror[0m] [0m[0m         ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shehroz/Desktop/New Folder 3/singlecycle/src/main/scala/singlecycle /top.scala:20:10: value dataIn is not a member of chisel3.Bundle{val out: chisel3.Vec[chisel3.UInt]; val addr: chisel3.UInt; val rd_enable: chisel3.Bool; val wr_enable: chisel3.Bool; val mask: chisel3.Vec[chisel3.Bool]}[0m
+[0m[[0m[31merror[0m] [0m[0mdmmod.io.dataIn(3) := 0.U[0m
+[0m[[0m[31merror[0m] [0m[0m         ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shehroz/Desktop/New Folder 3/singlecycle/src/main/scala/singlecycle /top.scala:80:18: value dataIn is not a member of chisel3.Bundle{val out: chisel3.Vec[chisel3.UInt]; val addr: chisel3.UInt; val rd_enable: chisel3.Bool; val wr_enable: chisel3.Bool; val mask: chisel3.Vec[chisel3.Bool]}[0m
+[0m[[0m[31merror[0m] [0m[0m        dmmod.io.dataIn(0) := regfmod.io.rdata2(7,0)[0m
+[0m[[0m[31merror[0m] [0m[0m                 ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shehroz/Desktop/New Folder 3/singlecycle/src/main/scala/singlecycle /top.scala:94:18: value dataIn is not a member of chisel3.Bundle{val out: chisel3.Vec[chisel3.UInt]; val addr: chisel3.UInt; val rd_enable: chisel3.Bool; val wr_enable: chisel3.Bool; val mask: chisel3.Vec[chisel3.Bool]}[0m
+[0m[[0m[31merror[0m] [0m[0m        dmmod.io.dataIn(1) := regfmod.io.rdata2(7,0)[0m
+[0m[[0m[31merror[0m] [0m[0m                 ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shehroz/Desktop/New Folder 3/singlecycle/src/main/scala/singlecycle /top.scala:108:18: value dataIn is not a member of chisel3.Bundle{val out: chisel3.Vec[chisel3.UInt]; val addr: chisel3.UInt; val rd_enable: chisel3.Bool; val wr_enable: chisel3.Bool; val mask: chisel3.Vec[chisel3.Bool]}[0m
+[0m[[0m[31merror[0m] [0m[0m        dmmod.io.dataIn(2) := regfmod.io.rdata2(7,0)[0m
+[0m[[0m[31merror[0m] [0m[0m                 ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shehroz/Desktop/New Folder 3/singlecycle/src/main/scala/singlecycle /top.scala:122:18: value dataIn is not a member of chisel3.Bundle{val out: chisel3.Vec[chisel3.UInt]; val addr: chisel3.UInt; val rd_enable: chisel3.Bool; val wr_enable: chisel3.Bool; val mask: chisel3.Vec[chisel3.Bool]}[0m
+[0m[[0m[31merror[0m] [0m[0m        dmmod.io.dataIn(3) := regfmod.io.rdata2(7,0)[0m
+[0m[[0m[31merror[0m] [0m[0m                 ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shehroz/Desktop/New Folder 3/singlecycle/src/main/scala/singlecycle /top.scala:136:18: value dataIn is not a member of chisel3.Bundle{val out: chisel3.Vec[chisel3.UInt]; val addr: chisel3.UInt; val rd_enable: chisel3.Bool; val wr_enable: chisel3.Bool; val mask: chisel3.Vec[chisel3.Bool]}[0m
+[0m[[0m[31merror[0m] [0m[0m        dmmod.io.dataIn(0) := regfmod.io.rdata2(7,0)[0m
+[0m[[0m[31merror[0m] [0m[0m                 ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shehroz/Desktop/New Folder 3/singlecycle/src/main/scala/singlecycle /top.scala:137:18: value dataIn is not a member of chisel3.Bundle{val out: chisel3.Vec[chisel3.UInt]; val addr: chisel3.UInt; val rd_enable: chisel3.Bool; val wr_enable: chisel3.Bool; val mask: chisel3.Vec[chisel3.Bool]}[0m
+[0m[[0m[31merror[0m] [0m[0m        dmmod.io.dataIn(1) := regfmod.io.rdata2(15,8)[0m
+[0m[[0m[31merror[0m] [0m[0m                 ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shehroz/Desktop/New Folder 3/singlecycle/src/main/scala/singlecycle /top.scala:152:18: value dataIn is not a member of chisel3.Bundle{val out: chisel3.Vec[chisel3.UInt]; val addr: chisel3.UInt; val rd_enable: chisel3.Bool; val wr_enable: chisel3.Bool; val mask: chisel3.Vec[chisel3.Bool]}[0m
+[0m[[0m[31merror[0m] [0m[0m        dmmod.io.dataIn(1) := regfmod.io.rdata2(7,0)[0m
+[0m[[0m[31merror[0m] [0m[0m                 ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shehroz/Desktop/New Folder 3/singlecycle/src/main/scala/singlecycle /top.scala:153:18: value dataIn is not a member of chisel3.Bundle{val out: chisel3.Vec[chisel3.UInt]; val addr: chisel3.UInt; val rd_enable: chisel3.Bool; val wr_enable: chisel3.Bool; val mask: chisel3.Vec[chisel3.Bool]}[0m
+[0m[[0m[31merror[0m] [0m[0m        dmmod.io.dataIn(2) := regfmod.io.rdata2(15,8)[0m
+[0m[[0m[31merror[0m] [0m[0m                 ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shehroz/Desktop/New Folder 3/singlecycle/src/main/scala/singlecycle /top.scala:167:18: value dataIn is not a member of chisel3.Bundle{val out: chisel3.Vec[chisel3.UInt]; val addr: chisel3.UInt; val rd_enable: chisel3.Bool; val wr_enable: chisel3.Bool; val mask: chisel3.Vec[chisel3.Bool]}[0m
+[0m[[0m[31merror[0m] [0m[0m        dmmod.io.dataIn(2) := regfmod.io.rdata2(7,0)[0m
+[0m[[0m[31merror[0m] [0m[0m                 ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shehroz/Desktop/New Folder 3/singlecycle/src/main/scala/singlecycle /top.scala:168:18: value dataIn is not a member of chisel3.Bundle{val out: chisel3.Vec[chisel3.UInt]; val addr: chisel3.UInt; val rd_enable: chisel3.Bool; val wr_enable: chisel3.Bool; val mask: chisel3.Vec[chisel3.Bool]}[0m
+[0m[[0m[31merror[0m] [0m[0m        dmmod.io.dataIn(3) := regfmod.io.rdata2(15,8)[0m
+[0m[[0m[31merror[0m] [0m[0m                 ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shehroz/Desktop/New Folder 3/singlecycle/src/main/scala/singlecycle /top.scala:179:18: value dataIn is not a member of chisel3.Bundle{val out: chisel3.Vec[chisel3.UInt]; val addr: chisel3.UInt; val rd_enable: chisel3.Bool; val wr_enable: chisel3.Bool; val mask: chisel3.Vec[chisel3.Bool]}[0m
+[0m[[0m[31merror[0m] [0m[0m        dmmod.io.dataIn(0) := regfmod.io.rdata2(15,8)[0m
+[0m[[0m[31merror[0m] [0m[0m                 ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shehroz/Desktop/New Folder 3/singlecycle/src/main/scala/singlecycle /top.scala:182:18: value dataIn is not a member of chisel3.Bundle{val out: chisel3.Vec[chisel3.UInt]; val addr: chisel3.UInt; val rd_enable: chisel3.Bool; val wr_enable: chisel3.Bool; val mask: chisel3.Vec[chisel3.Bool]}[0m
+[0m[[0m[31merror[0m] [0m[0m        dmmod.io.dataIn(3) := regfmod.io.rdata2(7,0)[0m
+[0m[[0m[31merror[0m] [0m[0m                 ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shehroz/Desktop/New Folder 3/singlecycle/src/main/scala/singlecycle /top.scala:195:18: value dataIn is not a member of chisel3.Bundle{val out: chisel3.Vec[chisel3.UInt]; val addr: chisel3.UInt; val rd_enable: chisel3.Bool; val wr_enable: chisel3.Bool; val mask: chisel3.Vec[chisel3.Bool]}[0m
+[0m[[0m[31merror[0m] [0m[0m        dmmod.io.dataIn(0) := regfmod.io.rdata2(7,0)[0m
+[0m[[0m[31merror[0m] [0m[0m                 ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shehroz/Desktop/New Folder 3/singlecycle/src/main/scala/singlecycle /top.scala:196:18: value dataIn is not a member of chisel3.Bundle{val out: chisel3.Vec[chisel3.UInt]; val addr: chisel3.UInt; val rd_enable: chisel3.Bool; val wr_enable: chisel3.Bool; val mask: chisel3.Vec[chisel3.Bool]}[0m
+[0m[[0m[31merror[0m] [0m[0m        dmmod.io.dataIn(1) := regfmod.io.rdata2(15,8)[0m
+[0m[[0m[31merror[0m] [0m[0m                 ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shehroz/Desktop/New Folder 3/singlecycle/src/main/scala/singlecycle /top.scala:197:18: value dataIn is not a member of chisel3.Bundle{val out: chisel3.Vec[chisel3.UInt]; val addr: chisel3.UInt; val rd_enable: chisel3.Bool; val wr_enable: chisel3.Bool; val mask: chisel3.Vec[chisel3.Bool]}[0m
+[0m[[0m[31merror[0m] [0m[0m        dmmod.io.dataIn(2) := regfmod.io.rdata2(23,16)[0m
+[0m[[0m[31merror[0m] [0m[0m                 ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shehroz/Desktop/New Folder 3/singlecycle/src/main/scala/singlecycle /top.scala:198:18: value dataIn is not a member of chisel3.Bundle{val out: chisel3.Vec[chisel3.UInt]; val addr: chisel3.UInt; val rd_enable: chisel3.Bool; val wr_enable: chisel3.Bool; val mask: chisel3.Vec[chisel3.Bool]}[0m
+[0m[[0m[31merror[0m] [0m[0m        dmmod.io.dataIn(3) := regfmod.io.rdata2(31,24)[0m
+[0m[[0m[31merror[0m] [0m[0m                 ^[0m
+[0m[[0m[31merror[0m] [0m[0m20 errors found[0m
