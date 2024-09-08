@@ -6,3 +6,4 @@
 1725651606869:testOnly singlecycle.cutest -- -DwriteVcd=1
 1725651743252:git remote -v
 1725702206666:testOnly singlecycle.cutest -- -DwriteVcd=1
+1725790629870:git add .
