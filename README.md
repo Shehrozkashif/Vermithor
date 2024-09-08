@@ -1,7 +1,6 @@
-Scala Chisel Learning Journey
+RISCV RV32I 5 Stage Pipelined Core 
 =======================
 
-[![Join the chat at https://gitter.im/merledu/scala-chisel-learning-journey](https://badges.gitter.im/merledu/scala-chisel-learning-journey.svg)](https://gitter.im/merledu/scala-chisel-learning-journey?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 
 Start by setting up the working enviroment
