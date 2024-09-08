@@ -1,8 +1,4 @@
-RISCV RV32I 5 Stage Pipelined Core 
-=======================
-
-
-
+RISCV RV32I 5 Stage Pipelined Core
 Start by setting up the working enviroment
 
 ### Dependencies
