@@ -1,0 +1,12 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(testOnly core.cutest, Some(e4843776-856d-42ab-96fc-b30001e6d54f), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Test / testOnly[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 13 Scala sources to /home/shehroz/Desktop/New Folder 3/Vermithor/target/scala-2.12/classes ...[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/pc.scala:34:24: not found: type pc[0m
+[0m[[0m[31merror[0m] [0m[0mval pcmod = Module(new pc)[0m
+[0m[[0m[31merror[0m] [0m[0m                       ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 2 s, completed Sep 10, 2024, 12:11:39 AM[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m
+[0m[[0m[0minfo[0m] [0m[0mshutting down sbt server[0m

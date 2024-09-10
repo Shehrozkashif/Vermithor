@@ -1,9 +1,18 @@
-1725651196469:reload
-1725651263454:testOnly singlecycle.toptest -- -DwriteVcd=1
-1725651532792:testOnly singlecycle.ALUtest -- -DwriteVcd=1
-1725651572018:clear
-1725651577277:testOnly singlecycle.ALUtest -- -DwriteVcd=1
-1725651606869:testOnly singlecycle.cutest -- -DwriteVcd=1
-1725651743252:git remote -v
-1725702206666:testOnly singlecycle.cutest -- -DwriteVcd=1
-1725790629870:git add .
+1725908973892:reload
+1725909020311:testOnly core.cutest
+1725912511233:testOnly core.fetchtest
+1725912649911:reload
+1725912656066:testOnly core.fetchtest
+1725912664317:testOnly core.cutest
+1725912699392:testOnly core.fetchtest
+1725912798366:testOnly core.Fetchtest
+1725912874046:testOnly core.fetchtest
+1725913078914:testOnly pipeline.fetchtest -- -DwriteVcd=1
+1725913092515:testOnly pipeline.cutest -- -DwriteVcd=1
+1725913104009:testOnly core.cutest
+1725913125687:testOnly core.cutest -- -DwriteVcd=1
+1725913138996:testOnly core.fetchtest -- -DwriteVcd=1
+1725913929526:reload
+1725913933065:testOnly core.fetchtest -- -DwriteVcd=1
+1725952386783:git add .
+1725952957727:testOnly core.fetchtest -- -DwriteVcd=1

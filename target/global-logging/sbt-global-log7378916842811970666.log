@@ -1,0 +1,11 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(testOnly core.fetchtest -- -DwriteVcd=1, Some(d52a52a1-6abb-4a23-a188-6c13ce3d295a), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Test / testOnly[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /home/shehroz/Desktop/New Folder 3/Vermithor/target/scala-2.12/test-classes ...[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shehroz/Desktop/New Folder 3/Vermithor/src/test/scala/core/memtest.scala:9:6: value data_in is not a member of chisel3.Bundle{val enable: chisel3.Bool; val address: chisel3.UInt; val out: chisel3.UInt}[0m
+[0m[[0m[31merror[0m] [0m[0ma.io.data_in.poke(0.U)[0m
+[0m[[0m[31merror[0m] [0m[0m     ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
+[0m[[0m[31merror[0m] [0m[0m(Test / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 1 s, completed Sep 10, 2024, 1:32:14 AM[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m

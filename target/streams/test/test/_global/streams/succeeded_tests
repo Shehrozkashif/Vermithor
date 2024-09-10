@@ -1,4 +1,4 @@
 #Successful Tests
-#Sun Sep 08 15:16:57 PKT 2024
-singlecycle.ALUtest=1725651580950
-singlecycle.cutest=1725790616846
+#Tue Sep 10 12:29:38 PKT 2024
+core.fetchtest=1725953378824
+core.cutest=1725913128211

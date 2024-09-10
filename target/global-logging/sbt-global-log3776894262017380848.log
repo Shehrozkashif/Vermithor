@@ -1,0 +1,27 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(testOnly core.fetchtest -- -DwriteVcd=1, Some(5a617650-2751-40bd-ba0c-b461fdd11ce5), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Test / testOnly[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /home/shehroz/Desktop/New Folder 3/Vermithor/target/scala-2.12/test-classes ...[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mfetchtest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- Chisel Tester fetch test *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  chiseltest.UnpokeableException: Can only poke inputs[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at chiseltest.package$testableData.pokeBits(package.scala:91)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at chiseltest.package$testableData.poke(package.scala:103)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at core.fetchtest.$anonfun$new$3(fetchtest.scala:17)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at core.fetchtest.$anonfun$new$3$adapted(fetchtest.scala:8)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at chiseltest.backends.treadle.TreadleBackend.$anonfun$run$1(TreadleBackend.scala:152)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at chiseltest.internal.ThreadedBackend$TesterThread$$anon$1.$anonfun$run$1(ThreadedBackend.scala:507)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at chiseltest.backends.treadle.TreadleBackend.doTimescope(TreadleBackend.scala:109)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at chiseltest.internal.ThreadedBackend$TesterThread$$anon$1.run(ThreadedBackend.scala:507)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at java.base/java.lang.Thread.run(Thread.java:829)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 2 seconds, 648 milliseconds.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 1[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 1, aborted 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 0, failed 1, canceled 0, ignored 0, pending 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m*** 1 TEST FAILED ***[0m[0m
+[0m[[0m[31merror[0m] [0m[0mFailed tests:[0m
+[0m[[0m[31merror[0m] [0m[0m	core.fetchtest[0m
+[0m[[0m[31merror[0m] [0m[0m(Test / [31mtestOnly[0m) sbt.TestsFailedException: Tests unsuccessful[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 5 s, completed Sep 10, 2024, 12:25:04 PM[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m

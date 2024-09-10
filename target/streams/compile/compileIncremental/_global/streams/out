@@ -1,6 +1,6 @@
 [0m[[0m[0mdebug[0m] [0m[0m[zinc] IncrementalCompile -----------[0m
 [0m[[0m[0mdebug[0m] [0m[0mIncrementalCompile.incrementalCompile[0m
-[0m[[0m[0mdebug[0m] [0m[0mprevious = Stamps for: 19 products, 10 sources, 4 libraries[0m
-[0m[[0m[0mdebug[0m] [0m[0mcurrent source = Set(${BASE}/src/main/scala/singlecycle /Imem.scala, ${BASE}/src/main/scala/singlecycle /datamemory.scala, ${BASE}/src/main/scala/singlecycle /controlunit.scala, ${BASE}/src/main/scala/singlecycle /mainmemory.scala, ${BASE}/src/main/scala/singlecycle /top_core.scala, ${BASE}/src/main/scala/singlecycle /registerfile.scala, ${BASE}/src/main/scala/singlecycle /immgenr.scala, ${BASE}/src/main/scala/singlecycle /pc.scala, ${BASE}/src/main/scala/singlecycle /alu.scala)[0m
-[0m[[0m[0mdebug[0m] [0m[0m> initialChanges = InitialChanges(Changes(added = Set(), removed = Set(${BASE}/src/main/scala/singlecycle /top.scala), changed = Set(), unmodified = ...),Set(),Set(),API Changes: Set())[0m
+[0m[[0m[0mdebug[0m] [0m[0mprevious = Stamps for: 20 products, 13 sources, 4 libraries[0m
+[0m[[0m[0mdebug[0m] [0m[0mcurrent source = Set(${BASE}/src/main/scala/core/datamemory.scala, ${BASE}/src/main/scala/core/fetch.scala, ${BASE}/src/main/scala/core/alu.scala, ${BASE}/src/main/scala/core/top_core.scala, ${BASE}/src/main/scala/core/registerfile.scala, ${BASE}/src/main/scala/core/decode.scala, ${BASE}/src/main/scala/core/Imem.scala, ${BASE}/src/main/scala/core/controlunit.scala, ${BASE}/src/main/scala/core/pc.scala, ${BASE}/src/main/scala/core/wb.scala, ${BASE}/src/main/scala/core/immgenr.scala, ${BASE}/src/main/scala/core/mem.scala, ${BASE}/src/main/scala/core/execute.scala)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> initialChanges = InitialChanges(Changes(added = Set(), removed = Set(), changed = Set(), unmodified = ...),Set(),Set(),API Changes: Set())[0m
 [0m[[0m[0mdebug[0m] [0m[0mNo changes[0m

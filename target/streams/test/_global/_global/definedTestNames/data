@@ -1,1 +1,1 @@
-["singlecycle.memtest","singlecycle.registerfiletest","singlecycle.cutest","singlecycle.ALUtest","singlecycle.pctest"]
+["core.registerfiletest","core.fetchtest","core.memtest","core.cutest","core.ALUtest"]

@@ -1,0 +1,28 @@
+[
+  {
+    "class":"firrtl.stage.FirrtlFileAnnotation",
+    "file":"test_run_dir/Chisel_Tester_fetch_test/fetch.lo.fir"
+  },
+  {
+    "class":"firrtl.transforms.CombinationalPath",
+    "sink":"~fetch|fetch>io_Imem_fetch_out",
+    "sources":[
+      "~fetch|fetch>io_Imem_fetch_address"
+    ]
+  },
+  {
+    "class":"firrtl.EmitCircuitAnnotation",
+    "emitter":"firrtl.LowFirrtlEmitter"
+  },
+  {
+    "class":"firrtl.annotations.LoadMemoryAnnotation",
+    "target":"fetch.Imem.memory",
+    "fileName":"src/main/scala/core/inst_file.txt",
+    "hexOrBinary":"h",
+    "originalMemoryNameOpt":"memory"
+  },
+  {
+    "class":"firrtl.transforms.BlackBoxTargetDirAnno",
+    "targetDir":"test_run_dir/Chisel_Tester_fetch_test"
+  }
+]
