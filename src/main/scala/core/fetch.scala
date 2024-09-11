@@ -20,8 +20,7 @@ val io = IO(new Bundle{
     val Imem_fetch_out = Output(UInt(32.W))
 
 
-  } )
-  
+  } )  
 
     
     
@@ -50,21 +49,4 @@ val io = IO(new Bundle{
     inmmod.io.enable := io.Imem_fetch_enable
     inmmod.io.address := io.Imem_fetch_address
     io.Imem_fetch_out    := inmmod.io.out 
-
-
-
-
-
-     
-
-
-
-
-    
-
-
-
-
-
-
 }

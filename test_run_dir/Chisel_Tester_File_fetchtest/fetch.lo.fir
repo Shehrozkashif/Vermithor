@@ -53,17 +53,17 @@ circuit fetch :
     input io_Imem_fetch_address : UInt<32>
     output io_Imem_fetch_out : UInt<32>
 
-    inst pcmod of pc @[fetch.scala 30:23]
-    inst inmmod of Imem @[fetch.scala 31:24]
-    io_pc_fetch_out <= pcmod.io_out @[fetch.scala 46:21]
-    io_Imem_fetch_out <= inmmod.io_out @[fetch.scala 52:26]
+    inst pcmod of pc @[fetch.scala 29:23]
+    inst inmmod of Imem @[fetch.scala 30:24]
+    io_pc_fetch_out <= pcmod.io_out @[fetch.scala 45:21]
+    io_Imem_fetch_out <= inmmod.io_out @[fetch.scala 51:26]
     pcmod.clock <= clock
     pcmod.reset <= reset
-    pcmod.io_imm <= io_pc_fetch_imm @[fetch.scala 39:18]
-    pcmod.io_jump <= io_pc_fetch_jump @[fetch.scala 40:19]
-    pcmod.io_jump2 <= io_pc_fetch_jump2 @[fetch.scala 41:20]
-    pcmod.io_jump3 <= io_pc_fetch_jump3 @[fetch.scala 42:20]
+    pcmod.io_imm <= io_pc_fetch_imm @[fetch.scala 38:18]
+    pcmod.io_jump <= io_pc_fetch_jump @[fetch.scala 39:19]
+    pcmod.io_jump2 <= io_pc_fetch_jump2 @[fetch.scala 40:20]
+    pcmod.io_jump3 <= io_pc_fetch_jump3 @[fetch.scala 41:20]
     inmmod.clock <= clock
     inmmod.reset <= reset
-    inmmod.io_enable <= io_Imem_fetch_enable @[fetch.scala 50:22]
-    inmmod.io_address <= io_Imem_fetch_address @[fetch.scala 51:23]
+    inmmod.io_enable <= io_Imem_fetch_enable @[fetch.scala 49:22]
+    inmmod.io_address <= io_Imem_fetch_address @[fetch.scala 50:23]

@@ -43,19 +43,19 @@ circuit fetch :
     input reset : UInt<1>
     output io : {flip pc_fetch_imm : UInt<32>, pc_fetch_out : UInt<32>, flip pc_fetch_jump : UInt<1>, flip pc_fetch_jump2 : UInt<1>, flip pc_fetch_jump3 : UInt<1>, flip Imem_fetch_enable : UInt<1>, flip Imem_fetch_address : UInt<32>, Imem_fetch_out : UInt<32>}
     
-    inst pcmod of pc @[fetch.scala 30:23]
+    inst pcmod of pc @[fetch.scala 29:23]
     pcmod.clock <= clock
     pcmod.reset <= reset
-    inst inmmod of Imem @[fetch.scala 31:24]
+    inst inmmod of Imem @[fetch.scala 30:24]
     inmmod.clock <= clock
     inmmod.reset <= reset
-    inmmod.io.address <= pcmod.io.out @[fetch.scala 35:23]
-    pcmod.io.imm <= io.pc_fetch_imm @[fetch.scala 39:18]
-    pcmod.io.jump <= io.pc_fetch_jump @[fetch.scala 40:19]
-    pcmod.io.jump2 <= io.pc_fetch_jump2 @[fetch.scala 41:20]
-    pcmod.io.jump3 <= io.pc_fetch_jump3 @[fetch.scala 42:20]
-    io.pc_fetch_out <= pcmod.io.out @[fetch.scala 46:21]
-    inmmod.io.enable <= io.Imem_fetch_enable @[fetch.scala 50:22]
-    inmmod.io.address <= io.Imem_fetch_address @[fetch.scala 51:23]
-    io.Imem_fetch_out <= inmmod.io.out @[fetch.scala 52:26]
+    inmmod.io.address <= pcmod.io.out @[fetch.scala 34:23]
+    pcmod.io.imm <= io.pc_fetch_imm @[fetch.scala 38:18]
+    pcmod.io.jump <= io.pc_fetch_jump @[fetch.scala 39:19]
+    pcmod.io.jump2 <= io.pc_fetch_jump2 @[fetch.scala 40:20]
+    pcmod.io.jump3 <= io.pc_fetch_jump3 @[fetch.scala 41:20]
+    io.pc_fetch_out <= pcmod.io.out @[fetch.scala 45:21]
+    inmmod.io.enable <= io.Imem_fetch_enable @[fetch.scala 49:22]
+    inmmod.io.address <= io.Imem_fetch_address @[fetch.scala 50:23]
+    io.Imem_fetch_out <= inmmod.io.out @[fetch.scala 51:26]
     

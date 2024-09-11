@@ -5,7 +5,7 @@ class controlunit extends Module{
 val io = IO(new Bundle{
 val instruction = Input(UInt(32.W))
 val func3_7 = Output(UInt(3.W))
-val en_imem = Output(Bool())  // imem enable
+// val en_imem = Output(Bool())  // imem enable
 val en_reg = Output(Bool()) // reg enable
 val rd = Output(UInt(5.W))
 val rs2 = Output(UInt(5.W))
@@ -13,7 +13,7 @@ val rs1 = Output(UInt(5.W))
 val imm = Output(UInt(12.W))
 } )
 // val op = io.instruction(6,0)
-io.en_imem := 0.B
+
 io.en_reg := 0.B
 io.func3_7 := 0.U
 
@@ -48,4 +48,3 @@ when(io.instruction(6,0) === 51.U)
 // data mmeory wenable and renable 
 
   }
-
