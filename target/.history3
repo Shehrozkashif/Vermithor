@@ -16,3 +16,8 @@
 1725913933065:testOnly core.fetchtest -- -DwriteVcd=1
 1725952386783:git add .
 1725952957727:testOnly core.fetchtest -- -DwriteVcd=1
+1726084360812:testOnly core.datamemorytest -- -DwriteVcd=1
+1726084452870:testOnly core.fetchtest -- -DwriteVcd=1
+1726084463759:testOnly core.datamemorytest -- -DwriteVcd=1
+1726084469676:testOnly core.fetchtest -- -DwriteVcd=1
+1726084676511:testOnly core.datamemorytest -- -DwriteVcd=1

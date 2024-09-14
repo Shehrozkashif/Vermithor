@@ -1,4 +1,4 @@
-[0m[[0m[31merror[0m] [0m[0m/home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/decode.scala:43:14: value decode_instruction is not a member of chisel3.Bundle{val instruction: chisel3.UInt; val func3_7: chisel3.UInt; val en_reg: chisel3.Bool; val rd: chisel3.UInt; val rs2: chisel3.UInt; val rs1: chisel3.UInt; val imm: chisel3.UInt}[0m
-[0m[[0m[31merror[0m] [0m[0m    cumod.io.decode_instruction := io.decode_instruction[0m
-[0m[[0m[31merror[0m] [0m[0m             ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/mem.scala:6:7: fetch is already defined as class fetch[0m
+[0m[[0m[31merror[0m] [0m[0mclass fetch extends Module{[0m
+[0m[[0m[31merror[0m] [0m[0m      ^[0m
 [0m[[0m[31merror[0m] [0m[0mone error found[0m

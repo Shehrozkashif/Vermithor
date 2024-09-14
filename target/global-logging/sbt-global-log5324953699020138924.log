@@ -1,0 +1,18 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(testOnly core.datamemorytest -- -DwriteVcd=1, Some(f350b982-6df7-451c-bbf5-fefc8998b58c), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Test / testOnly[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /home/shehroz/Desktop/New Folder 3/Vermithor/target/scala-2.12/classes ...[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /home/shehroz/Desktop/New Folder 3/Vermithor/target/scala-2.12/test-classes ...[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shehroz/Desktop/New Folder 3/Vermithor/src/test/scala/core/datamemorytest.scala:9:6: value dataIn is not a member of chisel3.Bundle{val out: chisel3.Vec[chisel3.UInt]; val addr: chisel3.UInt; val rd_enable: chisel3.Bool; val wr_enable: chisel3.Bool; val mask: chisel3.Vec[chisel3.Bool]}[0m
+[0m[[0m[31merror[0m] [0m[0ma.io.dataIn.poke(0.U)[0m
+[0m[[0m[31merror[0m] [0m[0m     ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shehroz/Desktop/New Folder 3/Vermithor/src/test/scala/core/datamemorytest.scala:13:19: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : chisel3.Bool[0m
+[0m[[0m[31merror[0m] [0m[0m required: chisel3.Vec[chisel3.UInt][0m
+[0m[[0m[31merror[0m] [0m[0ma.io.out.expect(0.B)[0m
+[0m[[0m[31merror[0m] [0m[0m                  ^[0m
+[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m
+[0m[[0m[31merror[0m] [0m[0m(Test / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 3 s, completed Sep 12, 2024, 12:58:22 AM[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0mForcing garbage collection...[0m
