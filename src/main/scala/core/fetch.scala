@@ -9,8 +9,6 @@ val io = IO(new Bundle{
     val pc_fetch_imm = Input(UInt(32.W))
     val pc_fetch_out = Output(UInt(32.W))
     val pc_fetch_jump = Input(Bool())     // Branch
-    val pc_fetch_jump2 = Input(Bool())    // Jal
-    val pc_fetch_jump3 = Input(Bool())  // Jalr
     // val pc_fetch_rs1data =Input(UInt(32.W))
 
 
@@ -23,8 +21,6 @@ val io = IO(new Bundle{
   } )  
 
     
-    
-
     // making instances
     val pcmod = Module(new pc)
     val inmmod = Module(new Imem)
@@ -48,5 +44,5 @@ val io = IO(new Bundle{
      // connections between instruction and fetch_module inputs
     inmmod.io.enable := io.Imem_fetch_enable
     inmmod.io.address := io.Imem_fetch_address
-    io.Imem_fetch_out    := inmmod.io.out 
+    io.Imem_fetch_out := inmmod.io.out 
 }

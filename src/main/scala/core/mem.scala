@@ -15,7 +15,6 @@ val io = IO(new Bundle{
   } )  
 
 
-
     // calling the objects 
     val datamemorymod = Module(new datamemory)
 
@@ -26,5 +25,6 @@ val io = IO(new Bundle{
     datamemorymod.io.rd_enable := io.rd_enable_mem
     datamemorymod.io.wr_enable := io.wr_enable_mem
     io.out_mem := datamemorymod.io.out
+
 
 }

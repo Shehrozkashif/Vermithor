@@ -8,7 +8,7 @@ val io = IO(new Bundle{
     // control unit inputs and outputs
     val decode_instruction = Input(UInt(32.W))
     val decode_func3_7 = Output(UInt(3.W))
-    val decode_en_imem = Output(Bool())  // imem enable
+    // val decode_en_imem = Output(Bool())  // imem enable
     val decode_en_reg = Output(Bool()) // reg enable
     val decode_rd = Output(UInt(5.W))
     val decode_rs2 = Output(UInt(5.W))
@@ -44,10 +44,10 @@ val io = IO(new Bundle{
     io.decode_func3_7 := cumod.io.func3_7
     // io.decode_en_imem := cumod.io.imem
     io.decode_en_reg  := cumod.io.en_reg
-    io.decode_rd      := cumod.io.rd
-    io.decode_rs2     := cumod.io.rs2
-    io.decode_rs1     := cumod.io.rs1
-    io.decode_imm     := cumod.io.imm
+    io.decode_rd := cumod.io.rd
+    io.decode_rs2 := cumod.io.rs2
+    io.decode_rs1 := cumod.io.rs1
+    io.decode_imm := cumod.io.imm
 
 
     // connections between immediate generation and decode
@@ -56,45 +56,18 @@ val io = IO(new Bundle{
 
 
     // connections between register file and control unit
-    regfmod.io.raddr1     := cumod.io.rs1
-    regfmod.io.raddr2     := cumod.io.rs2
-    regfmod.io.wen   := cumod.io.en_reg
-    regfmod.io.waddr      := cumod.io.rd
+    regfmod.io.raddr1 := cumod.io.rs1
+    regfmod.io.raddr2 := cumod.io.rs2
+    regfmod.io.wen := cumod.io.en_reg
+    regfmod.io.waddr := cumod.io.rd
 
 
     // connections between register file and decode stage
     io.decode_regf_rdata1 := regfmod.io.rdata1
     io.decode_regf_rdata2 := regfmod.io.rdata2
-
-
-     
-
-
-
-
-
-
-
-
-
     
 
-
-
-
     
-
-
-
-
-    
-
-
-
-   
-
-    
-
 
 
 

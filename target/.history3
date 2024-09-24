@@ -21,3 +21,5 @@
 1726084463759:testOnly core.datamemorytest -- -DwriteVcd=1
 1726084469676:testOnly core.fetchtest -- -DwriteVcd=1
 1726084676511:testOnly core.datamemorytest -- -DwriteVcd=1
+1726467470167:clear
+1726467473176:testOnly core.datamemorytest -- -DwriteVcd=1

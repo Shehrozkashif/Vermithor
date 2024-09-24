@@ -45,6 +45,6 @@ when(io.instruction(6,0) === 51.U)
  io.rs1 := io.instruction(19,15)
  io.rs2 := io.instruction(24,20)
  io.imm := io.instruction(31,20)
-// data mmeory wenable and renable 
+// data memory wenable and renable 
 
   }
