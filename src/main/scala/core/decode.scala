@@ -30,6 +30,16 @@ val io = IO(new Bundle{
     val decode_regf_waddr = Input ( UInt (5. W ) )  //rd
     val decode_regf_wdata = Input ( UInt ( 32 . W ) ) // rd data
 
+    // pcout
+     val pc_fetch_to_deocde = Input(UInt(32.W))
+     val pc_fetch_to_decode_out = Output(UInt(32.W))  
+
+
+    // pc + imm
+    val pc_imm_execute_to_decode = Input(UInt(32.W))
+    val pc_imm_execute_to_decode_out = Output(UInt(32.W)) 
+
+
 
   } )  
 
@@ -65,11 +75,16 @@ val io = IO(new Bundle{
     // connections between register file and decode stage
     io.decode_regf_rdata1 := regfmod.io.rdata1
     io.decode_regf_rdata2 := regfmod.io.rdata2
+    regfmod.io.wdata := io.decode_regf_wdata 
     
 
     
+    // pc 
+    io.pc_fetch_to_decode_out := io.pc_fetch_to_deocde
 
 
+    // pc + imm
+    io.pc_imm_execute_to_decode_out :=io.pc_imm_execute_to_decode
 
 
 

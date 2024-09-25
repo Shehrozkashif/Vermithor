@@ -18,6 +18,11 @@ val io = IO(new Bundle{
     val Imem_fetch_out = Output(UInt(32.W))
 
 
+    // pc + imm
+    // reciving imm from execute 
+    val pc_imm_execute = Input(UInt(32.W))
+
+
   } )  
 
     
@@ -31,12 +36,12 @@ val io = IO(new Bundle{
 
 
     // connections between pc and fetch_module inputs
-    pcmod.io.imm := io.pc_fetch_imm 
-    pcmod.io.jump := io.pc_fetch_jump
-    pcmod.io.jump2 := io.pc_fetch_jump2
-    pcmod.io.jump3 := io.pc_fetch_jump3
+    pcmod.io.imm := io.pc_imm_execute
+   when(io.Imem_fetch_out(6, 0) === 99.U || io.Imem_fetch_out(6,0) === "h6f".U) { // branch
+  pcmod.io.jump := true.B
+    }
 
-
+    
     // connections between pc and fetch_module outputs
     io.pc_fetch_out := pcmod.io.out 
 
@@ -45,4 +50,13 @@ val io = IO(new Bundle{
     inmmod.io.enable := io.Imem_fetch_enable
     inmmod.io.address := io.Imem_fetch_address
     io.Imem_fetch_out := inmmod.io.out 
+
+
+    
+
+
+
+
+   
+
 }

@@ -12,7 +12,11 @@ val io = IO(new Bundle{
     val wr_enable_mem = Input(Bool())
 
 
-  } )  
+    // pc + imm
+    val pc_imm_execute_to_mem = Input(UInt(32.W))
+    val pc_imm_mem_to_execute_out = Output(UInt(32.W)) 
+
+  })  
 
 
     // calling the objects 
@@ -26,5 +30,5 @@ val io = IO(new Bundle{
     datamemorymod.io.wr_enable := io.wr_enable_mem
     io.out_mem := datamemorymod.io.out
 
-
+  
 }

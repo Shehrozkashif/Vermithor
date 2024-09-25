@@ -15,6 +15,17 @@ val io = IO(new Bundle{
     val regfrdata2_execute = Input(UInt(32.W))
 
 
+    // pcout 
+     val pc_decode_to_execute = Input(UInt(32.W))
+     val pc_decode_to_execute_imm = Input(UInt(32.W))
+     val pc_imm_execute_to_decode_out = Output(UInt(32.W)) 
+
+     // pc + imm
+    val imm_decode = Input(UInt(32.W))
+    val pc_fetch = Input(UInt(32.W)) 
+    val pc_imm_added = Output(UInt(32.W)) 
+
+
     
 
 
@@ -44,6 +55,8 @@ val io = IO(new Bundle{
     alumod.io.A := io.regfrdata2_execute
     }
 
+    //pcout
+    io.pc_imm_added  :=  io.imm_decode + io.pc_fetch
     
 
 }
