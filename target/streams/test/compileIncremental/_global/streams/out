@@ -1,6 +1,22 @@
 [0m[[0m[0mdebug[0m] [0m[0m[zinc] IncrementalCompile -----------[0m
 [0m[[0m[0mdebug[0m] [0m[0mIncrementalCompile.incrementalCompile[0m
-[0m[[0m[0mdebug[0m] [0m[0mprevious = Stamps for: 6 products, 9 sources, 5 libraries[0m
-[0m[[0m[0mdebug[0m] [0m[0mcurrent source = Set(${BASE}/src/test/scala/core/memtest.scala, ${BASE}/src/test/scala/core/alutest.scala, ${BASE}/src/test/scala/core/toptest.scala, ${BASE}/src/test/scala/core/fetchtest.scala, ${BASE}/src/test/scala/core/registerfiletest.scala, ${BASE}/src/test/scala/core/execute.scala, ${BASE}/src/test/scala/core/datamemorytest.scala, ${BASE}/src/test/scala/core/cutest.scala, ${BASE}/src/test/scala/core/pctest.scala)[0m
-[0m[[0m[0mdebug[0m] [0m[0m> initialChanges = InitialChanges(Changes(added = Set(), removed = Set(), changed = Set(), unmodified = ...),Set(),Set(),API Changes: Set())[0m
+[0m[[0m[0mdebug[0m] [0m[0mprevious = Stamps for: 7 products, 10 sources, 5 libraries[0m
+[0m[[0m[0mdebug[0m] [0m[0mcurrent source = Set(${BASE}/src/test/scala/core/memtest.scala, ${BASE}/src/test/scala/core/alutest.scala, ${BASE}/src/test/scala/core/toptest.scala, ${BASE}/src/test/scala/core/fetchtest.scala, ${BASE}/src/test/scala/core/topcoretest.scala, ${BASE}/src/test/scala/core/registerfiletest.scala, ${BASE}/src/test/scala/core/execute.scala, ${BASE}/src/test/scala/core/datamemorytest.scala, ${BASE}/src/test/scala/core/cutest.scala, ${BASE}/src/test/scala/core/pctest.scala)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> initialChanges = InitialChanges(Changes(added = Set(), removed = Set(), changed = Set(), unmodified = ...),Set(),Set(),API Changes: Set(NamesChange(core.Imem,ModifiedNames(changes = UsedName(io,[Default]), UsedName(enable,[Default]))), NamesChange(core.fetch,ModifiedNames(changes = UsedName(Imem_fetch_address,[Default]), UsedName(Imem_fetch_enable,[Default]), UsedName(pc_fetch_jump,[Default]), UsedName(pc_fetch_imm,[Default]), UsedName(io,[Default])))))[0m
+[0m[[0m[0mdebug[0m] [0m[0mThe core.Imem has the following regular definitions changed:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	UsedName(io,[Default]), UsedName(enable,[Default]).[0m
+[0m[[0m[0mdebug[0m] [0m[0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0m[0mdebug[0m] [0m[0mFiles invalidated by inheriting from (external) core.Imem: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mNow invalidating by inheritance (internally).[0m
+[0m[[0m[0mdebug[0m] [0m[0mGetting direct dependencies of all classes transitively invalidated by inheritance.[0m
+[0m[[0m[0mdebug[0m] [0m[0mGetting classes that directly depend on (external) core.Imem.[0m
+[0m[[0m[0mdebug[0m] [0m[0mNone of the modified names appears in source file of core.memtest. This dependency is not being considered for invalidation.[0m
+[0m[[0m[0mdebug[0m] [0m[0mThe core.fetch has the following regular definitions changed:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	UsedName(Imem_fetch_address,[Default]), UsedName(Imem_fetch_enable,[Default]), UsedName(pc_fetch_jump,[Default]), UsedName(pc_fetch_imm,[Default]), UsedName(io,[Default]).[0m
+[0m[[0m[0mdebug[0m] [0m[0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0m[0mdebug[0m] [0m[0mFiles invalidated by inheriting from (external) core.fetch: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mNow invalidating by inheritance (internally).[0m
+[0m[[0m[0mdebug[0m] [0m[0mGetting direct dependencies of all classes transitively invalidated by inheritance.[0m
+[0m[[0m[0mdebug[0m] [0m[0mGetting classes that directly depend on (external) core.fetch.[0m
+[0m[[0m[0mdebug[0m] [0m[0mNone of the modified names appears in source file of core.fetchtest. This dependency is not being considered for invalidation.[0m
 [0m[[0m[0mdebug[0m] [0m[0mNo changes[0m

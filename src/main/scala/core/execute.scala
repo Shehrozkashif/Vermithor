@@ -11,7 +11,7 @@ val io = IO(new Bundle{
     val op_alu_execute = Input(UInt(4.W))
     val out_alu_execute = Output(UInt(32.W))
     val ins_execute = Input(UInt(32.W))
-    val imm_execute = Output(UInt(12.W))
+    val imm_execute = Input(UInt(32.W))
     val regfrdata2_execute = Input(UInt(32.W))
 
 
@@ -39,7 +39,7 @@ val io = IO(new Bundle{
 
 
     // connections between alu and execute stage
-    alumod.io.A := io.A_alu_execute
+
     alumod.io.B := io.B_alu_execute
     alumod.io.op := io.op_alu_execute
     io.out_alu_execute := alumod.io.out 

@@ -7,7 +7,7 @@ import chisel3.util.experimental.loadMemoryFromFile
 class Imem extends Module {
   val io = IO(new Bundle {
    
-    val enable = Input(Bool())
+    // val enable = Input(Bool())
     val address = Input(UInt(32.W))
     val out = Output(UInt(32.W))
   })

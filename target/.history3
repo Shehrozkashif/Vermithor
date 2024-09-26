@@ -23,3 +23,4 @@
 1726084676511:testOnly core.datamemorytest -- -DwriteVcd=1
 1726467470167:clear
 1726467473176:testOnly core.datamemorytest -- -DwriteVcd=1
+1727288697846:testOnly core.topcoretest -- -DwriteVcd=1

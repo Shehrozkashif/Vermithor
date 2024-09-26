@@ -1,0 +1,4 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(testOnly core.topcoretest -- -DwriteVcd=1, Some(780f5124-b5b4-4a97-9624-16edda1ec1d9), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Test / testOnly[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 3 Scala sources to /home/shehroz/Desktop/New Folder 3/Vermithor/target/scala-2.12/classes ...[0m

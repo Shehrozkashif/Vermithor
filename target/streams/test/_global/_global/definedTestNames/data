@@ -1,1 +1,1 @@
-["core.registerfiletest","core.fetchtest","core.memtest","core.datamemorytest","core.cutest","core.ALUtest"]
+["core.registerfiletest","core.fetchtest","core.memtest","core.datamemorytest","core.topcoretest","core.cutest","core.ALUtest"]
