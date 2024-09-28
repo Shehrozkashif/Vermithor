@@ -34,3 +34,5 @@
 1727539190530:testOnly core.decodetest -- -DwriteVcd=1
 1727539254743:testOnly core.executetest -- -DwriteVcd=1
 1727539266380:testOnly core.topcoretest -- -DwriteVcd=1
+1727556977242:git add ,
+1727556982491:git add .

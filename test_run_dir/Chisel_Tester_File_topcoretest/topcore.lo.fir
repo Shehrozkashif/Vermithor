@@ -7,12 +7,12 @@ circuit topcore :
     input io_jump : UInt<1>
 
     reg pc : UInt<32>, clock with :
-      reset => (UInt<1>("h0"), pc) @[pc.scala 21:19]
-    node _pc_T = add(pc, UInt<3>("h4")) @[pc.scala 27:11]
-    node _pc_T_1 = tail(_pc_T, 1) @[pc.scala 27:11]
-    node _GEN_0 = mux(io_jump, io_imm, _pc_T_1) @[pc.scala 23:14 pc.scala 24:4 pc.scala 27:4]
-    io_out <= pc @[pc.scala 30:8]
-    pc <= mux(reset, UInt<32>("h0"), _GEN_0) @[pc.scala 21:19 pc.scala 21:19]
+      reset => (UInt<1>("h0"), pc) @[pc.scala 20:19]
+    node _pc_T = add(pc, UInt<3>("h4")) @[pc.scala 26:11]
+    node _pc_T_1 = tail(_pc_T, 1) @[pc.scala 26:11]
+    node _GEN_0 = mux(io_jump, io_imm, _pc_T_1) @[pc.scala 22:14 pc.scala 23:4 pc.scala 26:4]
+    io_out <= pc @[pc.scala 29:8]
+    pc <= mux(reset, UInt<32>("h0"), _GEN_0) @[pc.scala 20:19 pc.scala 20:19]
 
   module Imem :
     input clock : Clock
@@ -48,24 +48,19 @@ circuit topcore :
     output io_pc_fetch_out : UInt<32>
     output io_Imem_fetch_out : UInt<32>
     input io_pc_imm_execute : UInt<32>
+    input io_jump_fetch : UInt<1>
 
-    inst pcmod of pc @[fetch.scala 25:23]
-    inst inmmod of Imem @[fetch.scala 26:24]
-    node _T = bits(io_Imem_fetch_out, 6, 0) @[fetch.scala 50:27]
-    node _T_1 = eq(_T, UInt<7>("h63")) @[fetch.scala 50:34]
-    node _T_2 = bits(io_Imem_fetch_out, 6, 0) @[fetch.scala 50:63]
-    node _T_3 = eq(_T_2, UInt<7>("h6f")) @[fetch.scala 50:69]
-    node _T_4 = or(_T_1, _T_3) @[fetch.scala 50:43]
-    node _GEN_0 = mux(_T_4, UInt<1>("h1"), UInt<1>("h0")) @[fetch.scala 50:82 fetch.scala 51:23 fetch.scala 54:21]
-    io_pc_fetch_out <= pcmod.io_out @[fetch.scala 44:21]
-    io_Imem_fetch_out <= inmmod.io_out @[fetch.scala 48:23]
+    inst pcmod of pc @[fetch.scala 30:23]
+    inst inmmod of Imem @[fetch.scala 31:24]
+    io_pc_fetch_out <= pcmod.io_out @[fetch.scala 49:21]
+    io_Imem_fetch_out <= inmmod.io_out @[fetch.scala 53:23]
     pcmod.clock <= clock
     pcmod.reset <= reset
-    pcmod.io_imm <= io_pc_imm_execute @[fetch.scala 39:18]
-    pcmod.io_jump <= _GEN_0
+    pcmod.io_imm <= io_pc_imm_execute @[fetch.scala 44:18]
+    pcmod.io_jump <= io_jump_fetch @[fetch.scala 56:23]
     inmmod.clock <= clock
     inmmod.reset <= reset
-    inmmod.io_address <= pcmod.io_out @[fetch.scala 35:23]
+    inmmod.io_address <= pcmod.io_out @[fetch.scala 40:23]
 
   module controlunit :
     input clock : Clock
@@ -531,25 +526,61 @@ circuit topcore :
     output io_out_alu_execute : UInt<32>
     input io_ins_execute : UInt<32>
     input io_imm_execute : UInt<32>
+    output io_jump_execute : UInt<1>
     input io_pc_fetch : UInt<32>
     output io_pc_imm_added : UInt<32>
 
-    inst alumod of alu @[execute.scala 26:24]
-    node _T = bits(io_ins_execute, 6, 0) @[execute.scala 45:25]
-    node _T_1 = eq(_T, UInt<6>("h33")) @[execute.scala 45:31]
-    node _T_2 = bits(io_ins_execute, 6, 0) @[execute.scala 48:26]
-    node _T_3 = eq(_T_2, UInt<5>("h13")) @[execute.scala 48:32]
-    node _GEN_0 = mux(_T_3, io_imm_execute, UInt<1>("h0")) @[execute.scala 48:44 execute.scala 49:13 execute.scala 27:17]
-    node _GEN_1 = mux(_T_1, io_B_alu_execute, _GEN_0) @[execute.scala 45:44 execute.scala 46:13]
-    node _io_pc_imm_added_T = add(io_imm_execute, io_pc_fetch) @[execute.scala 130:41]
-    node _io_pc_imm_added_T_1 = tail(_io_pc_imm_added_T, 1) @[execute.scala 130:41]
-    io_out_alu_execute <= alumod.io_out @[execute.scala 33:24]
-    io_pc_imm_added <= _io_pc_imm_added_T_1 @[execute.scala 130:22]
+    inst alumod of alu @[execute.scala 32:24]
+    node _T = bits(io_ins_execute, 6, 0) @[execute.scala 42:25]
+    node _T_1 = eq(_T, UInt<6>("h33")) @[execute.scala 42:31]
+    node _T_2 = bits(io_ins_execute, 6, 0) @[execute.scala 45:30]
+    node _T_3 = eq(_T_2, UInt<5>("h13")) @[execute.scala 45:36]
+    node _GEN_0 = mux(_T_3, io_imm_execute, UInt<1>("h0")) @[execute.scala 45:48 execute.scala 46:17 execute.scala 33:17]
+    node _GEN_1 = mux(_T_1, io_B_alu_execute, _GEN_0) @[execute.scala 42:44 execute.scala 43:17]
+    node _T_4 = bits(io_ins_execute, 6, 0) @[execute.scala 51:21]
+    node _T_5 = eq(_T_4, UInt<7>("h63")) @[execute.scala 51:27]
+    node _T_6 = bits(io_ins_execute, 14, 12) @[execute.scala 60:24]
+    node _T_7 = eq(_T_6, UInt<1>("h0")) @[execute.scala 60:33]
+    node _T_8 = eq(io_A_alu_execute, io_B_alu_execute) @[execute.scala 61:29]
+    node _GEN_2 = mux(_T_8, UInt<1>("h1"), UInt<1>("h0")) @[execute.scala 61:51 execute.scala 62:25 execute.scala 28:21]
+    node _T_9 = bits(io_ins_execute, 14, 12) @[execute.scala 64:30]
+    node _T_10 = eq(_T_9, UInt<1>("h1")) @[execute.scala 64:39]
+    node _T_11 = neq(io_A_alu_execute, io_B_alu_execute) @[execute.scala 65:29]
+    node _GEN_3 = mux(_T_11, UInt<1>("h1"), UInt<1>("h0")) @[execute.scala 65:51 execute.scala 66:25 execute.scala 28:21]
+    node _T_12 = bits(io_ins_execute, 14, 12) @[execute.scala 68:30]
+    node _T_13 = eq(_T_12, UInt<2>("h2")) @[execute.scala 68:39]
+    node _T_14 = lt(io_A_alu_execute, io_B_alu_execute) @[execute.scala 69:29]
+    node _GEN_4 = mux(_T_14, UInt<1>("h1"), UInt<1>("h0")) @[execute.scala 69:49 execute.scala 70:25 execute.scala 28:21]
+    node _T_15 = bits(io_ins_execute, 14, 12) @[execute.scala 72:30]
+    node _T_16 = eq(_T_15, UInt<2>("h3")) @[execute.scala 72:39]
+    node _T_17 = geq(io_A_alu_execute, io_B_alu_execute) @[execute.scala 73:29]
+    node _GEN_5 = mux(_T_17, UInt<1>("h1"), UInt<1>("h0")) @[execute.scala 73:50 execute.scala 74:25 execute.scala 28:21]
+    node _T_18 = bits(io_ins_execute, 14, 12) @[execute.scala 76:30]
+    node _T_19 = eq(_T_18, UInt<3>("h4")) @[execute.scala 76:39]
+    node _T_20 = lt(io_A_alu_execute, io_B_alu_execute) @[execute.scala 77:36]
+    node _GEN_6 = mux(_T_20, UInt<1>("h1"), UInt<1>("h0")) @[execute.scala 77:65 execute.scala 78:25 execute.scala 28:21]
+    node _T_21 = bits(io_ins_execute, 14, 12) @[execute.scala 80:30]
+    node _T_22 = eq(_T_21, UInt<3>("h5")) @[execute.scala 80:39]
+    node _T_23 = geq(io_A_alu_execute, io_B_alu_execute) @[execute.scala 81:36]
+    node _GEN_7 = mux(_T_23, UInt<1>("h1"), UInt<1>("h0")) @[execute.scala 81:66 execute.scala 82:25 execute.scala 28:21]
+    node _GEN_8 = mux(_T_22, _GEN_7, UInt<1>("h0")) @[execute.scala 80:48 execute.scala 28:21]
+    node _GEN_9 = mux(_T_19, _GEN_6, _GEN_8) @[execute.scala 76:48]
+    node _GEN_10 = mux(_T_16, _GEN_5, _GEN_9) @[execute.scala 72:48]
+    node _GEN_11 = mux(_T_13, _GEN_4, _GEN_10) @[execute.scala 68:48]
+    node _GEN_12 = mux(_T_10, _GEN_3, _GEN_11) @[execute.scala 64:48]
+    node _GEN_13 = mux(_T_7, _GEN_2, _GEN_12) @[execute.scala 60:42]
+    node _GEN_14 = mux(_T_5, io_imm_execute, _GEN_1) @[execute.scala 51:37 execute.scala 54:15]
+    node _GEN_15 = mux(_T_5, _GEN_13, UInt<1>("h0")) @[execute.scala 51:37 execute.scala 28:21]
+    node _io_pc_imm_added_T = add(io_imm_execute, io_pc_fetch) @[execute.scala 169:41]
+    node _io_pc_imm_added_T_1 = tail(_io_pc_imm_added_T, 1) @[execute.scala 169:41]
+    io_out_alu_execute <= alumod.io_out @[execute.scala 39:24]
+    io_jump_execute <= _GEN_15
+    io_pc_imm_added <= _io_pc_imm_added_T_1 @[execute.scala 169:22]
     alumod.clock <= clock
     alumod.reset <= reset
-    alumod.io_A <= io_A_alu_execute @[execute.scala 31:17]
-    alumod.io_B <= _GEN_1
-    alumod.io_op <= io_op_alu_execute @[execute.scala 32:18]
+    alumod.io_A <= io_A_alu_execute @[execute.scala 37:17]
+    alumod.io_B <= _GEN_14
+    alumod.io_op <= io_op_alu_execute @[execute.scala 38:18]
 
   module datamemory :
     input clock : Clock
@@ -632,6 +663,7 @@ circuit topcore :
     fetch_module.clock <= clock
     fetch_module.reset <= reset
     fetch_module.io_pc_imm_execute <= execute_module.io_pc_imm_added @[topcore.scala 27:36]
+    fetch_module.io_jump_fetch <= execute_module.io_jump_execute @[topcore.scala 69:32]
     decode_module.clock <= clock
     decode_module.reset <= reset
     decode_module.io_decode_instruction <= fetch_module.io_Imem_fetch_out @[topcore.scala 24:41]

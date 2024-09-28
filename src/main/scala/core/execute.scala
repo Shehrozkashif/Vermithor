@@ -14,7 +14,9 @@ val io = IO(new Bundle{
     val imm_execute = Input(UInt(32.W))
 
 
-    // jump 
+    // jump sending to fetch
+
+     val jump_execute = Output(Bool()) 
     
 
      // pc + imm
@@ -23,6 +25,7 @@ val io = IO(new Bundle{
 
 
   } )  
+    io.jump_execute := 0.B
 
 
     // calling the objects 
@@ -56,27 +59,27 @@ when(io.ins_execute (6,0) === 99.U) {
     // pcmod.io.imm := alumod.io.out
     when(io.ins_execute(14, 12) === 0.U) { // beq
       when(io.A_alu_execute === io.B_alu_execute) {
-        pcmod.io.jump := true.B
+        io.jump_execute := true.B
       }
     }.elsewhen(io.ins_execute(14, 12) === 1.U) { // bne
       when(io.A_alu_execute =/= io.B_alu_execute) {
-        pcmod.io.jump := true.B
+        io.jump_execute := true.B
       }
     }.elsewhen(io.ins_execute(14, 12) === 2.U) { // blt
       when(io.A_alu_execute < io.B_alu_execute) {
-        pcmod.io.jump := true.B
+        io.jump_execute := true.B
       }
     }.elsewhen(io.ins_execute(14, 12) === 3.U) { // bge
       when(io.A_alu_execute >= io.B_alu_execute) {
-        pcmod.io.jump := true.B
+        io.jump_execute := true.B
       }
     }.elsewhen(io.ins_execute(14, 12) === 4.U) { // bltu
       when(io.A_alu_execute.asUInt < io.B_alu_execute.asUInt()) {
-        pcmod.io.jump := true.B
+        io.jump_execute := true.B
       }
     }.elsewhen(io.ins_execute(14, 12) === 5.U) { // bgeu
       when(io.A_alu_execute.asUInt >= io.B_alu_execute.asUInt()) {
-        pcmod.io.jump := true.B
+        io.jump_execute := true.B
       }
     }
 

@@ -61,9 +61,12 @@ class topcore extends  Module {
 
 
 
-
+    // write back
     io.out := wb_module.io.wb_dataout
 
+
+    // jump 
+    fetch_module.io.jump_fetch :=  execute_module.io.jump_execute
 
 
 

@@ -15268,3 +15268,854 @@ SEVERE: A severe compiler error occurred, full details of the error can be found
 2024.09.29 00:45:43 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
 2024.09.29 00:45:43 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
 2024.09.29 00:45:44 WARN  no build target for: /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala
+2024.09.29 00:46:50 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 00:46:58 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 00:46:58 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 00:46:58 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 00:46:58 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 00:46:59 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+Sep 29, 2024 12:46:59 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 17063
+2024.09.29 00:46:58 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 00:46:59 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 00:46:59 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 00:47:00 WARN  no build target for: /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala
+2024.09.29 00:47:02 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 00:47:02 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 00:47:03 WARN  no build target for: /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala
+2024.09.29 00:47:04 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 00:47:08 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 00:47:08 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 00:47:09 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 00:47:12 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 00:47:13 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 00:47:13 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 00:47:14 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 00:47:15 WARN  no build target for: /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala
+2024.09.29 00:47:15 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 00:47:16 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 00:47:15 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 00:47:16 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 00:47:17 WARN  no build target for: /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala
+2024.09.29 00:48:10 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 00:48:10 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 00:48:12 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 00:48:12 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 00:48:14 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 00:48:15 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 00:48:15 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 00:48:15 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 00:48:15 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+Sep 29, 2024 12:48:15 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/shehroz/Desktop/New Folder 3/Vermithor/.metals/.reports/metals-full/2024-09-29/r_compiler-error_00-48-15-922.md
+2024.09.29 00:48:16 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 00:48:16 WARN  no build target for: /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala
+Sep 29, 2024 12:48:16 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/shehroz/Desktop/New Folder 3/Vermithor/.metals/.reports/metals-full/2024-09-29/r_compiler-error_00-48-16-775.md
+2024.09.29 00:48:16 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+Sep 29, 2024 12:48:17 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/shehroz/Desktop/New Folder 3/Vermithor/.metals/.reports/metals-full/2024-09-29/r_compiler-error_00-48-17-044.md
+2024.09.29 00:48:17 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 00:48:17 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 00:48:17 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 00:48:18 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 00:48:17 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 00:48:18 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 00:48:19 WARN  no build target for: /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala
+2024.09.29 00:48:20 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 00:48:20 WARN  no build target for: /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala
+2024.09.29 00:48:20 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 00:48:21 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 00:48:24 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 00:48:24 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 00:48:26 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 00:48:26 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 00:48:26 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 00:48:26 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 00:48:26 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 00:48:27 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 00:48:27 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 00:48:27 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 00:48:27 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 00:48:27 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 00:48:27 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 00:48:27 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 00:48:27 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 00:48:27 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 00:48:27 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 00:48:27 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 00:48:28 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 00:48:28 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 00:48:29 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 00:48:29 WARN  no build target for: /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala
+2024.09.29 00:48:33 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 00:48:33 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 00:48:35 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 00:48:42 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 00:48:42 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 00:48:42 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 00:48:44 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 00:48:45 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+Sep 29, 2024 12:48:45 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/shehroz/Desktop/New Folder 3/Vermithor/.metals/.reports/metals-full/2024-09-29/r_compiler-error_00-48-45-038.md
+2024.09.29 00:48:44 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 00:48:44 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 00:48:44 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 00:48:44 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 00:48:44 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 00:48:44 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 00:48:45 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+Sep 29, 2024 12:48:45 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/shehroz/Desktop/New Folder 3/Vermithor/.metals/.reports/metals-full/2024-09-29/r_compiler-error_00-48-45-935.md
+2024.09.29 00:48:46 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 00:48:46 WARN  no build target for: /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala
+Sep 29, 2024 12:48:46 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/shehroz/Desktop/New Folder 3/Vermithor/.metals/.reports/metals-full/2024-09-29/r_compiler-error_00-48-46-717.md
+2024.09.29 00:48:46 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 00:48:47 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 00:48:47 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 00:48:47 WARN  no build target for: /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala
+2024.09.29 00:48:48 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 00:48:48 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 00:48:50 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 00:48:50 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+Sep 29, 2024 12:48:50 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/shehroz/Desktop/New Folder 3/Vermithor/.metals/.reports/metals-full/2024-09-29/r_compiler-error_00-48-50-974.md
+2024.09.29 00:48:51 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+Sep 29, 2024 12:48:51 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/shehroz/Desktop/New Folder 3/Vermithor/.metals/.reports/metals-full/2024-09-29/r_compiler-error_00-48-51-265.md
+2024.09.29 00:48:50 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 00:48:50 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 00:48:51 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 00:48:51 WARN  no build target for: /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala
+2024.09.29 00:48:51 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 00:48:51 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+Sep 29, 2024 12:48:51 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/shehroz/Desktop/New Folder 3/Vermithor/.metals/.reports/metals-full/2024-09-29/r_compiler-error_00-48-51-969.md
+2024.09.29 00:48:51 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 00:48:51 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 00:48:52 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+Sep 29, 2024 12:48:52 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/shehroz/Desktop/New Folder 3/Vermithor/.metals/.reports/metals-full/2024-09-29/r_compiler-error_00-48-52-450.md
+2024.09.29 00:48:53 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 00:48:53 WARN  no build target for: /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala
+2024.09.29 00:48:53 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+Sep 29, 2024 12:48:53 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/shehroz/Desktop/New Folder 3/Vermithor/.metals/.reports/metals-full/2024-09-29/r_compiler-error_00-48-53-291.md
+2024.09.29 00:48:53 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 00:48:54 WARN  no build target for: /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala
+2024.09.29 00:48:55 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 00:48:55 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 00:48:56 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 00:48:56 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+Sep 29, 2024 12:48:56 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/shehroz/Desktop/New Folder 3/Vermithor/.metals/.reports/metals-full/2024-09-29/r_compiler-error_00-48-56-926.md
+2024.09.29 00:48:57 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+Sep 29, 2024 12:48:57 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/shehroz/Desktop/New Folder 3/Vermithor/.metals/.reports/metals-full/2024-09-29/r_compiler-error_00-48-57-228.md
+2024.09.29 00:48:57 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 00:48:57 WARN  no build target for: /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala
+2024.09.29 00:48:56 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 00:48:56 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+Sep 29, 2024 12:48:57 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/shehroz/Desktop/New Folder 3/Vermithor/.metals/.reports/metals-full/2024-09-29/r_compiler-error_00-48-57-946.md
+2024.09.29 00:48:58 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+Sep 29, 2024 12:48:58 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 17304
+2024.09.29 00:48:58 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 00:48:58 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 00:48:57 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+Sep 29, 2024 12:48:58 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/shehroz/Desktop/New Folder 3/Vermithor/.metals/.reports/metals-full/2024-09-29/r_compiler-error_00-48-58-503.md
+2024.09.29 00:48:59 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 00:48:59 WARN  no build target for: /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala
+2024.09.29 00:48:59 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+Sep 29, 2024 12:48:59 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/shehroz/Desktop/New Folder 3/Vermithor/.metals/.reports/metals-full/2024-09-29/r_compiler-error_00-48-59-311.md
+2024.09.29 00:48:59 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 00:48:59 WARN  no build target for: /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala
+2024.09.29 00:49:01 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 00:49:01 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 00:49:01 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 00:49:04 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 00:49:04 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+Sep 29, 2024 12:49:04 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/shehroz/Desktop/New Folder 3/Vermithor/.metals/.reports/metals-full/2024-09-29/r_compiler-error_00-49-04-354.md
+2024.09.29 00:49:04 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 00:49:04 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 00:49:05 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 00:49:05 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 00:49:05 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 00:49:05 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 00:49:05 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+Sep 29, 2024 12:49:05 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/shehroz/Desktop/New Folder 3/Vermithor/.metals/.reports/metals-full/2024-09-29/r_compiler-error_00-49-05-823.md
+2024.09.29 00:49:05 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 00:49:06 WARN  no build target for: /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala
+Sep 29, 2024 12:49:06 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/shehroz/Desktop/New Folder 3/Vermithor/.metals/.reports/metals-full/2024-09-29/r_compiler-error_00-49-06-603.md
+2024.09.29 00:49:06 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 00:49:06 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 00:49:06 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 00:49:07 WARN  no build target for: /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala
+2024.09.29 00:49:08 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 00:49:08 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 00:49:10 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 00:49:10 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+Sep 29, 2024 12:49:10 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/shehroz/Desktop/New Folder 3/Vermithor/.metals/.reports/metals-full/2024-09-29/r_compiler-error_00-49-10-592.md
+2024.09.29 00:49:10 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 00:49:10 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 00:49:10 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 00:49:10 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 00:49:10 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 00:49:10 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 00:49:11 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+Sep 29, 2024 12:49:11 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/shehroz/Desktop/New Folder 3/Vermithor/.metals/.reports/metals-full/2024-09-29/r_compiler-error_00-49-11-579.md
+2024.09.29 00:49:12 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 00:49:12 WARN  no build target for: /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala
+2024.09.29 00:49:12 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+Sep 29, 2024 12:49:12 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/shehroz/Desktop/New Folder 3/Vermithor/.metals/.reports/metals-full/2024-09-29/r_compiler-error_00-49-12-349.md
+2024.09.29 00:49:12 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 00:49:13 WARN  no build target for: /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala
+2024.09.29 00:49:14 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 00:49:14 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 00:49:16 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 00:49:16 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+Sep 29, 2024 12:49:16 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/shehroz/Desktop/New Folder 3/Vermithor/.metals/.reports/metals-full/2024-09-29/r_compiler-error_00-49-16-766.md
+2024.09.29 00:49:16 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 00:49:16 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 00:49:16 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 00:49:16 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 00:49:16 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 00:49:16 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 00:49:17 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+Sep 29, 2024 12:49:17 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/shehroz/Desktop/New Folder 3/Vermithor/.metals/.reports/metals-full/2024-09-29/r_compiler-error_00-49-17-717.md
+2024.09.29 00:49:17 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 00:49:18 WARN  no build target for: /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala
+2024.09.29 00:49:18 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+Sep 29, 2024 12:49:18 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/shehroz/Desktop/New Folder 3/Vermithor/.metals/.reports/metals-full/2024-09-29/r_compiler-error_00-49-18-523.md
+2024.09.29 00:49:18 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 00:49:19 WARN  no build target for: /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala
+2024.09.29 00:50:42 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 00:50:43 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 00:50:46 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 00:50:50 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 00:50:50 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 00:50:59 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 00:51:09 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/topcore.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 00:51:25 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/fetch.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 00:51:36 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/fetch.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 00:51:40 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/fetch.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 00:51:47 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/fetch.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 00:52:02 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/fetch.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 00:52:14 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/fetch.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 00:52:23 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/fetch.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 00:57:13 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/fetch.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 00:58:20 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/fetch.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 00:58:23 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/fetch.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 00:58:23 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/fetch.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 00:58:23 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/fetch.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 00:58:24 WARN  no build target for: /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/fetch.scala
+2024.09.29 00:58:24 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/fetch.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 00:58:24 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/fetch.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 00:58:25 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/fetch.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 00:58:25 WARN  no build target for: /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/fetch.scala
+2024.09.29 00:58:27 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/fetch.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 00:58:28 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/fetch.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 00:58:28 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/fetch.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 00:58:30 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/fetch.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 00:58:30 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/fetch.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 00:58:30 WARN  no build target for: /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/fetch.scala
+2024.09.29 00:58:31 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/fetch.scala. Using presentation compiler with project's scala-library version: 2.12.19
+Sep 29, 2024 12:58:31 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 17685
+2024.09.29 00:58:31 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/fetch.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 00:58:31 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/fetch.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 00:58:32 WARN  no build target for: /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/fetch.scala
+2024.09.29 00:58:32 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/fetch.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 00:58:33 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/fetch.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 00:58:33 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/fetch.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 00:58:34 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/fetch.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 00:58:35 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/fetch.scala. Using presentation compiler with project's scala-library version: 2.12.19
+Sep 29, 2024 12:58:35 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 17700
+2024.09.29 00:58:35 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/fetch.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 00:58:36 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/fetch.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 00:58:36 WARN  no build target for: /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/fetch.scala
+2024.09.29 00:58:37 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/fetch.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 00:58:37 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/fetch.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 00:58:37 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/fetch.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 00:58:37 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/fetch.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 00:58:38 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/fetch.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 00:58:38 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/fetch.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 00:58:38 WARN  no build target for: /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/fetch.scala
+2024.09.29 00:58:38 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/fetch.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 00:58:39 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/fetch.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 00:58:40 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/fetch.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 00:58:40 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/fetch.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 00:58:40 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/fetch.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 00:58:40 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/fetch.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 00:58:40 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/fetch.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 00:58:41 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/fetch.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 00:58:41 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/fetch.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 00:58:41 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/fetch.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 00:58:41 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/fetch.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 00:58:41 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/fetch.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 00:58:41 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/fetch.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 00:58:41 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/fetch.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 00:58:41 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/fetch.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 00:58:43 WARN  no build target for: /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/fetch.scala
+2024.09.29 00:58:57 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/fetch.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 00:58:57 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/fetch.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 00:58:58 WARN  no build target for: /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/fetch.scala
+2024.09.29 01:04:31 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/fetch.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:04:35 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/fetch.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:07:30 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/fetch.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:07:34 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/fetch.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:07:44 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/fetch.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:07:45 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/fetch.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:07:45 WARN  no build target for: /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/fetch.scala
+2024.09.29 01:07:50 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/fetch.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:08:43 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/fetch.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:08:43 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/fetch.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:08:44 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/fetch.scala. Using presentation compiler with project's scala-library version: 2.12.19
+Sep 29, 2024 1:08:44 AM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Sep 29, 2024 1:08:44 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/shehroz/Desktop/New Folder 3/Vermithor/.metals/.reports/metals-full/2024-09-29/r_compiler-error_01-08-44-722.md
+2024.09.29 01:08:49 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/fetch.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:08:49 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/fetch.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:08:51 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/fetch.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:09:33 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/fetch.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:09:43 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/fetch.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:09:54 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/pc.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:09:55 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/pc.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:09:55 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/pc.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:09:55 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/pc.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:10:12 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/fetch.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:10:12 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/fetch.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:10:13 WARN  no build target for: /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/fetch.scala
+2024.09.29 01:10:13 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/fetch.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:10:13 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/fetch.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:10:14 WARN  no build target for: /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/fetch.scala
+2024.09.29 01:10:15 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/fetch.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:10:15 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/fetch.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:10:16 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/fetch.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:10:16 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/fetch.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:10:20 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/fetch.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:10:20 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/fetch.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:10:20 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/fetch.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:10:21 WARN  no build target for: /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/fetch.scala
+2024.09.29 01:10:22 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/fetch.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:10:22 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/fetch.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:10:22 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/fetch.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:10:22 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/fetch.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:10:22 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/fetch.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:10:22 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/fetch.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:10:23 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/fetch.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:10:23 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/fetch.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:10:23 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/fetch.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:10:23 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/fetch.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:10:24 WARN  no build target for: /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/fetch.scala
+2024.09.29 01:10:24 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/fetch.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:10:24 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/fetch.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:10:25 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/fetch.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:10:25 WARN  no build target for: /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/fetch.scala
+2024.09.29 01:10:50 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/fetch.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:11:09 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/fetch.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:11:37 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/fetch.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:11:37 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/fetch.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:11:38 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/fetch.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:11:48 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:11:53 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:11:53 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:11:54 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:11:56 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:11:56 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:11:56 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:11:57 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:11:58 WARN  no build target for: /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala
+2024.09.29 01:11:58 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:11:58 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:11:58 WARN  no build target for: /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala
+2024.09.29 01:11:59 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:11:59 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:12:01 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:12:01 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:12:01 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:12:01 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:12:02 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:12:02 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:12:02 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:12:02 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:12:02 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:12:03 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:12:02 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:12:02 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:12:03 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:12:04 WARN  no build target for: /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala
+2024.09.29 01:12:04 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:12:04 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:12:06 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:12:06 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:12:06 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:12:06 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+Sep 29, 2024 1:12:06 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 18031
+2024.09.29 01:12:06 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:12:06 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:12:07 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:12:07 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:12:07 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:12:07 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:12:08 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:12:08 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:12:08 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:12:08 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:12:09 WARN  no build target for: /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala
+2024.09.29 01:12:10 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:12:28 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:12:28 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:13:30 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/topcore.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:13:30 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/topcore.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:13:30 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/topcore.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:13:30 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/topcore.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:13:30 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/topcore.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:13:31 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/topcore.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:13:31 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/topcore.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:13:31 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/topcore.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:13:32 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/topcore.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:13:32 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/topcore.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:13:32 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/topcore.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:13:32 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/topcore.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:13:33 WARN  no build target for: /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/topcore.scala
+2024.09.29 01:13:35 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/topcore.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:13:35 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/topcore.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:13:35 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/topcore.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:13:35 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/topcore.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:13:36 WARN  no build target for: /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/topcore.scala
+2024.09.29 01:13:37 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/topcore.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:13:39 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/topcore.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:13:39 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/topcore.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:13:39 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/topcore.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:13:40 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/topcore.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:13:39 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/topcore.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:13:40 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/topcore.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:13:41 WARN  no build target for: /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/topcore.scala
+2024.09.29 01:13:41 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/topcore.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:13:41 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/topcore.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:13:42 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/topcore.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:13:43 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/topcore.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:13:43 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/topcore.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:13:44 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/topcore.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:13:44 WARN  no build target for: /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/topcore.scala
+2024.09.29 01:13:45 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/topcore.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:13:46 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/topcore.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:13:46 WARN  no build target for: /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/topcore.scala
+2024.09.29 01:13:52 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/topcore.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:13:52 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/topcore.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:13:52 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/topcore.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:13:52 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/topcore.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:13:53 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/topcore.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:13:53 WARN  no build target for: /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/topcore.scala
+2024.09.29 01:13:54 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/topcore.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:13:54 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/topcore.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:13:54 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/topcore.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:13:54 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/topcore.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:13:54 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/topcore.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:13:54 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/topcore.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:13:54 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/topcore.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:13:55 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/topcore.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:13:55 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/topcore.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:13:55 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/topcore.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:13:55 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/topcore.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:13:55 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/topcore.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:13:56 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/topcore.scala. Using presentation compiler with project's scala-library version: 2.12.19
+Sep 29, 2024 1:13:56 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/shehroz/Desktop/New Folder 3/Vermithor/.metals/.reports/metals-full/2024-09-29/r_compiler-error_01-13-56-082.md
+2024.09.29 01:13:55 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/topcore.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:13:55 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/topcore.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:13:55 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/topcore.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:13:56 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/topcore.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:13:57 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/topcore.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:13:56 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/topcore.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:13:57 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/topcore.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:13:57 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/topcore.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:13:58 WARN  no build target for: /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/topcore.scala
+2024.09.29 01:13:58 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/topcore.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:13:58 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/topcore.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:13:58 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/topcore.scala. Using presentation compiler with project's scala-library version: 2.12.19
+Sep 29, 2024 1:13:58 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/shehroz/Desktop/New Folder 3/Vermithor/.metals/.reports/metals-full/2024-09-29/r_compiler-error_01-13-58-934.md
+2024.09.29 01:13:58 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/topcore.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:13:58 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/topcore.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:13:58 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/topcore.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:13:58 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/topcore.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:13:59 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/topcore.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:13:59 WARN  no build target for: /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/topcore.scala
+2024.09.29 01:14:02 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/topcore.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:14:02 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/topcore.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:14:02 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/topcore.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:14:02 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/topcore.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:14:03 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/topcore.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:14:03 WARN  no build target for: /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/topcore.scala
+2024.09.29 01:14:04 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/topcore.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:14:04 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/topcore.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:14:05 WARN  no build target for: /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/topcore.scala
+2024.09.29 01:14:06 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/topcore.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:14:06 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/topcore.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:14:06 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/topcore.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:14:06 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/topcore.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:14:06 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/topcore.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:14:06 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/topcore.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:14:07 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/topcore.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:14:08 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/topcore.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:14:08 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/topcore.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:14:08 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/topcore.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:14:08 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/topcore.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:14:09 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/topcore.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:14:09 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/topcore.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:14:09 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/topcore.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:14:09 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/topcore.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:14:10 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/topcore.scala. Using presentation compiler with project's scala-library version: 2.12.19
+Sep 29, 2024 1:14:10 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/shehroz/Desktop/New Folder 3/Vermithor/.metals/.reports/metals-full/2024-09-29/r_compiler-error_01-14-10-276.md
+2024.09.29 01:14:09 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/topcore.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:14:09 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/topcore.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:14:10 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/topcore.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:14:10 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/topcore.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:14:10 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/topcore.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:14:10 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/topcore.scala. Using presentation compiler with project's scala-library version: 2.12.19
+Sep 29, 2024 1:14:11 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/shehroz/Desktop/New Folder 3/Vermithor/.metals/.reports/metals-full/2024-09-29/r_compiler-error_01-14-11-008.md
+2024.09.29 01:14:11 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/topcore.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:14:11 WARN  no build target for: /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/topcore.scala
+Sep 29, 2024 1:14:11 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/shehroz/Desktop/New Folder 3/Vermithor/.metals/.reports/metals-full/2024-09-29/r_compiler-error_01-14-11-833.md
+2024.09.29 01:14:12 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/topcore.scala. Using presentation compiler with project's scala-library version: 2.12.19
+Sep 29, 2024 1:14:12 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/shehroz/Desktop/New Folder 3/Vermithor/.metals/.reports/metals-full/2024-09-29/r_compiler-error_01-14-12-198.md
+2024.09.29 01:14:14 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/topcore.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:14:14 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/topcore.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:14:14 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/topcore.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:14:14 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/topcore.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:14:15 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/topcore.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:14:16 WARN  no build target for: /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/topcore.scala
+2024.09.29 01:14:18 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/topcore.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:14:18 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/topcore.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:14:19 WARN  no build target for: /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/topcore.scala
+2024.09.29 01:14:20 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/topcore.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:14:22 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/topcore.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:14:22 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/topcore.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:14:22 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/topcore.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:14:24 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/topcore.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:14:25 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/topcore.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:15:02 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/topcore.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:15:25 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/fetch.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:15:28 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/fetch.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:15:55 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/fetch.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:15:58 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/fetch.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:15:58 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/fetch.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:16:02 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/fetch.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:16:02 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/fetch.scala. Using presentation compiler with project's scala-library version: 2.12.19
+Sep 29, 2024 1:16:02 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/shehroz/Desktop/New Folder 3/Vermithor/.metals/.reports/metals-full/2024-09-29/r_compiler-error_01-16-02-158.md
+2024.09.29 01:16:02 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/fetch.scala. Using presentation compiler with project's scala-library version: 2.12.19
+Sep 29, 2024 1:16:02 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/shehroz/Desktop/New Folder 3/Vermithor/.metals/.reports/metals-full/2024-09-29/r_compiler-error_01-16-02-430.md
+2024.09.29 01:16:02 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/fetch.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:16:02 WARN  no build target for: /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/fetch.scala
+Sep 29, 2024 1:16:02 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/shehroz/Desktop/New Folder 3/Vermithor/.metals/.reports/metals-full/2024-09-29/r_compiler-error_01-16-02-966.md
+2024.09.29 01:16:03 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/fetch.scala. Using presentation compiler with project's scala-library version: 2.12.19
+Sep 29, 2024 1:16:03 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/shehroz/Desktop/New Folder 3/Vermithor/.metals/.reports/metals-full/2024-09-29/r_compiler-error_01-16-03-292.md
+2024.09.29 01:16:05 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/fetch.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:16:05 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/fetch.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:16:06 WARN  no build target for: /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/fetch.scala
+2024.09.29 01:16:07 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/fetch.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:16:07 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/fetch.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:16:08 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/fetch.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:16:08 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/fetch.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:16:09 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/fetch.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:16:08 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/fetch.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:16:10 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/fetch.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:16:10 WARN  no build target for: /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/fetch.scala
+2024.09.29 01:16:11 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/fetch.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:16:13 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/fetch.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:16:13 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/fetch.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:16:13 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/fetch.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:16:13 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/fetch.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:16:14 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/fetch.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:16:13 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/fetch.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:16:13 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/fetch.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:16:14 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/fetch.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:16:14 WARN  no build target for: /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/fetch.scala
+2024.09.29 01:16:16 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/fetch.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:16:16 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/fetch.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:16:22 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/pc.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:16:23 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/pc.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:16:27 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/pc.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:16:27 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/pc.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:16:27 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/pc.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:16:27 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/pc.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:16:28 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/pc.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:16:27 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/pc.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:16:27 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/pc.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:16:28 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/pc.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:16:29 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/pc.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:16:29 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/pc.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:16:29 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/pc.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:16:29 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/pc.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:16:30 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/pc.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:16:30 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/pc.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:16:30 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/pc.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:16:31 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/pc.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:16:31 WARN  no build target for: /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/pc.scala
+2024.09.29 01:16:31 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/pc.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:16:31 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/pc.scala. Using presentation compiler with project's scala-library version: 2.12.19
+Sep 29, 2024 1:16:31 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/shehroz/Desktop/New Folder 3/Vermithor/.metals/.reports/metals-full/2024-09-29/r_compiler-error_01-16-31-987.md
+2024.09.29 01:16:32 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/pc.scala. Using presentation compiler with project's scala-library version: 2.12.19
+Sep 29, 2024 1:16:32 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/shehroz/Desktop/New Folder 3/Vermithor/.metals/.reports/metals-full/2024-09-29/r_compiler-error_01-16-32-249.md
+2024.09.29 01:16:31 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/pc.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:16:32 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/pc.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:16:33 WARN  no build target for: /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/pc.scala
+2024.09.29 01:16:33 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/pc.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:16:33 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/pc.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:16:33 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/pc.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:16:33 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/pc.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:16:33 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/pc.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:16:33 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/pc.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:16:34 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/pc.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:16:35 WARN  no build target for: /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/pc.scala
+2024.09.29 01:16:36 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/pc.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:16:36 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/pc.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:16:37 WARN  no build target for: /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/pc.scala
+2024.09.29 01:16:39 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/pc.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:16:42 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/pc.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:16:42 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/pc.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:16:42 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/pc.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:16:42 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/pc.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:16:43 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/pc.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:16:44 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/pc.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:16:44 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/pc.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:16:44 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/pc.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:16:44 WARN  no build target for: /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/pc.scala
+2024.09.29 01:16:44 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/pc.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:16:44 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/pc.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:16:44 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/pc.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:16:44 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/pc.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:16:44 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/pc.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:16:45 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/pc.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:16:45 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/pc.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:16:45 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/pc.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:16:46 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/pc.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:16:46 WARN  no build target for: /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/pc.scala
+2024.09.29 01:16:46 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/pc.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:16:46 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/pc.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:16:47 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/pc.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:16:46 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/pc.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:16:46 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/pc.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:16:47 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/pc.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:16:48 WARN  no build target for: /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/pc.scala
+2024.09.29 01:17:06 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/pc.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:17:07 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/pc.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:17:08 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/pc.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:17:08 WARN  no build target for: /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/pc.scala
+2024.09.29 01:17:10 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/pc.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:17:10 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/pc.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:17:10 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/pc.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:17:10 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/pc.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:17:11 WARN  no build target for: /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/pc.scala
+2024.09.29 01:19:31 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:19:36 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:19:36 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:20:33 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:20:33 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:20:38 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:20:39 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:20:40 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:20:40 WARN  no build target for: /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala
+2024.09.29 01:20:41 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:20:40 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:20:42 WARN  no build target for: /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala
+2024.09.29 01:20:42 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:20:45 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:20:47 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:20:47 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:20:47 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:20:47 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:20:48 WARN  no build target for: /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala
+2024.09.29 01:20:48 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:20:48 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:20:48 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:20:48 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:20:48 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:20:48 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:20:49 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:20:49 WARN  no build target for: /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala
+2024.09.29 01:20:49 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:20:49 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:20:50 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:20:50 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:20:50 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:20:50 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:20:50 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:20:50 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:20:51 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:20:51 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:20:51 WARN  no build target for: /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala
+2024.09.29 01:20:51 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:20:52 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:20:53 WARN  no build target for: /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala
+2024.09.29 01:20:53 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:20:53 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+Sep 29, 2024 1:20:54 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/shehroz/Desktop/New Folder 3/Vermithor/.metals/.reports/metals-full/2024-09-29/r_compiler-error_01-20-53-995.md
+2024.09.29 01:20:53 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+Sep 29, 2024 1:20:54 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 18826
+2024.09.29 01:20:53 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:20:54 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:20:55 WARN  no build target for: /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala
+2024.09.29 01:21:12 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:21:12 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:21:12 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:21:12 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:21:12 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:21:12 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:21:12 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:21:13 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:21:13 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:21:13 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:21:13 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:21:13 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:21:13 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:21:13 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+Sep 29, 2024 1:21:13 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/shehroz/Desktop/New Folder 3/Vermithor/.metals/.reports/metals-full/2024-09-29/r_compiler-error_01-21-13-995.md
+2024.09.29 01:21:14 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:21:14 WARN  no build target for: /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala
+Sep 29, 2024 1:21:14 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/shehroz/Desktop/New Folder 3/Vermithor/.metals/.reports/metals-full/2024-09-29/r_compiler-error_01-21-14-792.md
+2024.09.29 01:21:14 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:21:14 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:21:15 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:21:15 WARN  no build target for: /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala
+2024.09.29 01:21:22 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:21:22 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:21:22 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:21:22 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:21:24 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:21:24 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:21:24 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:21:24 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:21:25 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:21:25 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:21:25 WARN  no build target for: /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala
+2024.09.29 01:21:29 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:21:47 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:25:11 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/test/scala/core/topcoretest.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:25:11 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/test/scala/core/topcoretest.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:25:12 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/test/scala/core/topcoretest.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:25:13 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/test/scala/core/topcoretest.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:25:12 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/test/scala/core/topcoretest.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:25:13 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/test/scala/core/topcoretest.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:25:14 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/test/scala/core/topcoretest.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:25:14 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/test/scala/core/topcoretest.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:25:14 WARN  no build target for: /home/shehroz/Desktop/New Folder 3/Vermithor/src/test/scala/core/topcoretest.scala
+2024.09.29 01:28:59 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/fetch.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:29:02 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/fetch.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:29:16 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/fetch.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:29:16 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/fetch.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:29:16 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/fetch.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:29:17 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/fetch.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:29:18 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/fetch.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:29:18 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/fetch.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:29:18 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/fetch.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:29:18 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/fetch.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:29:18 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/fetch.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:29:19 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/fetch.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:29:19 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/fetch.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:29:20 WARN  no build target for: /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/fetch.scala
+2024.09.29 01:33:05 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/test/scala/core/topcoretest.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:33:05 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/test/scala/core/topcoretest.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:33:09 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/test/scala/core/topcoretest.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:33:09 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/test/scala/core/topcoretest.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:33:10 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/test/scala/core/topcoretest.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:33:12 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/test/scala/core/topcoretest.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:33:14 WARN  no build target for: /home/shehroz/Desktop/New Folder 3/Vermithor/src/test/scala/core/topcoretest.scala
+2024.09.29 01:33:27 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/test/scala/core/topcoretest.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:33:28 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/test/scala/core/topcoretest.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:33:28 WARN  no build target for: /home/shehroz/Desktop/New Folder 3/Vermithor/src/test/scala/core/topcoretest.scala
+2024.09.29 01:33:29 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/test/scala/core/topcoretest.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:33:29 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/test/scala/core/topcoretest.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:33:31 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/test/scala/core/topcoretest.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:33:31 WARN  no build target for: /home/shehroz/Desktop/New Folder 3/Vermithor/src/test/scala/core/topcoretest.scala
+2024.09.29 01:34:48 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/Imem.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:34:58 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/pc.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:35:08 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/fetch.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:35:10 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/fetch.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:35:14 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/topcore.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:35:24 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/topcore.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:35:32 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:35:50 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:35:52 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:35:52 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:35:52 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:35:52 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:35:54 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:35:54 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:35:55 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:35:54 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:35:55 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:35:56 WARN  no build target for: /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala
+2024.09.29 01:35:56 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:35:56 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+Sep 29, 2024 1:35:56 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/shehroz/Desktop/New Folder 3/Vermithor/.metals/.reports/metals-full/2024-09-29/r_compiler-error_01-35-56-744.md
+2024.09.29 01:35:56 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+Sep 29, 2024 1:35:57 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/shehroz/Desktop/New Folder 3/Vermithor/.metals/.reports/metals-full/2024-09-29/r_compiler-error_01-35-57-041.md
+2024.09.29 01:35:56 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:35:57 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:35:58 WARN  no build target for: /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala
+2024.09.29 01:36:24 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:36:24 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:36:29 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:36:52 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:36:52 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:36:57 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:36:59 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:37:09 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:37:15 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:37:15 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:37:15 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:37:18 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:37:18 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:37:18 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:37:18 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:37:18 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:37:18 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:37:18 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:37:19 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:37:20 WARN  no build target for: /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala
+2024.09.29 01:37:32 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:37:34 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:37:34 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:37:34 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:37:34 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:37:35 WARN  no build target for: /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala
+2024.09.29 01:37:41 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:37:45 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:37:46 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:38:01 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19
+2024.09.29 01:42:52 INFO  no build target found for /home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/execute.scala. Using presentation compiler with project's scala-library version: 2.12.19

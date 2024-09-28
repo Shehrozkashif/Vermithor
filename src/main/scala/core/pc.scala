@@ -15,7 +15,6 @@ val io = IO(new Bundle{
 
   
   } )
-  
   io.out := 0.U
   val max = 1024.U
   val pc = RegInit(0.U(32.W) ) 

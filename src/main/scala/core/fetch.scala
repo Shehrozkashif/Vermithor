@@ -18,6 +18,11 @@ val io = IO(new Bundle{
     // reciving imm from execute 
     val pc_imm_execute = Input(UInt(32.W))
 
+    // catching jump from execute 
+     val jump_fetch = Input(Bool()) 
+
+
+
 
   } )  
 
@@ -47,10 +52,7 @@ val io = IO(new Bundle{
      // connections between instruction and fetch_module inputs
     io.Imem_fetch_out := inmmod.io.out 
 
-    when(io.Imem_fetch_out(6, 0) === 99.U || io.Imem_fetch_out(6,0) === "h6f".U) { // branch and jal and jalr
-        pcmod.io.jump := true.B
-    }
-    .otherwise{
-      pcmod.io.jump := false.B
-    }
+        // jump
+        pcmod.io.jump := io.jump_fetch
+   
 }
