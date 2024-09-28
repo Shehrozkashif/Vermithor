@@ -1,0 +1,33 @@
+[
+  {
+    "class":"firrtl.stage.FirrtlFileAnnotation",
+    "file":"test_run_dir/Chisel_Tester_File_executetest/execute.lo.fir"
+  },
+  {
+    "class":"firrtl.transforms.CombinationalPath",
+    "sink":"~execute|execute>io_out_alu_execute",
+    "sources":[
+      "~execute|execute>io_op_alu_execute",
+      "~execute|execute>io_A_alu_execute",
+      "~execute|execute>io_imm_execute",
+      "~execute|execute>io_B_alu_execute",
+      "~execute|execute>io_ins_execute"
+    ]
+  },
+  {
+    "class":"firrtl.transforms.CombinationalPath",
+    "sink":"~execute|execute>io_pc_imm_added",
+    "sources":[
+      "~execute|execute>io_imm_execute",
+      "~execute|execute>io_pc_fetch"
+    ]
+  },
+  {
+    "class":"firrtl.EmitCircuitAnnotation",
+    "emitter":"firrtl.LowFirrtlEmitter"
+  },
+  {
+    "class":"firrtl.transforms.BlackBoxTargetDirAnno",
+    "targetDir":"test_run_dir/Chisel_Tester_File_executetest"
+  }
+]

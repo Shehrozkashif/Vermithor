@@ -24,3 +24,13 @@
 1726467470167:clear
 1726467473176:testOnly core.datamemorytest -- -DwriteVcd=1
 1727288697846:testOnly core.topcoretest -- -DwriteVcd=1
+1727536173030:testOnly core.Imemtest -- -DwriteVcd=1
+1727536337879:testOnly core.topcoretest -- -DwriteVcd=1
+1727538760783:testOnly core.fetchtest -- -DwriteVcd=1
+1727538770568:testOnly core.topcoretest -- -DwriteVcd=1
+1727539056004:testOnly core.fetchtest -- -DwriteVcd=1
+1727539067519:testOnly core.decodetest -- -DwriteVcd=1
+1727539112529:testOnly core.executetest -- -DwriteVcd=1
+1727539190530:testOnly core.decodetest -- -DwriteVcd=1
+1727539254743:testOnly core.executetest -- -DwriteVcd=1
+1727539266380:testOnly core.topcoretest -- -DwriteVcd=1

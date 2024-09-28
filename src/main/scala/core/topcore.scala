@@ -6,7 +6,7 @@ import chisel3.util._
 class topcore extends  Module {
   val io = IO(new Bundle{
 
-
+     val out = Output(UInt(32.W))
 
   })
 
@@ -18,11 +18,14 @@ class topcore extends  Module {
   val mem_module = Module(new mem)
   val wb_module = Module(new wb)
 
+  
+
     // conections fetch and decode
     decode_module.io.decode_instruction := fetch_module.io.Imem_fetch_out
     execute_module.io.pc_fetch := fetch_module.io.pc_fetch_out // sending pc to add with imm
     // reciving imm + pc from execute 
     fetch_module.io.pc_imm_execute := execute_module.io.pc_imm_added
+    
    
    
 
@@ -34,9 +37,9 @@ class topcore extends  Module {
     execute_module.io.op_alu_execute := decode_module.io.decode_func3_7
     execute_module.io.imm_execute := decode_module.io.decode_imm_out
 
+    
     // providing pc and imm to add it in execute
-   
-    execute_module.io.imm_decode := decode_module.io.decode_imm_out
+    execute_module.io.imm_execute := decode_module.io.decode_imm_out
 
 
 
@@ -49,6 +52,17 @@ class topcore extends  Module {
 
     // write back 
     decode_module.io.decode_regf_wdata  := wb_module.io.wb_dataout
+
+    mem_module.io.wr_enable_mem := false.B // Default to false
+    mem_module.io.rd_enable_mem := false.B // Default to false
+    mem_module.io.addr_mem := 0.U // Default to 
+
+    wb_module.io.ins := fetch_module.io.Imem_fetch_out
+
+
+
+
+    io.out := wb_module.io.wb_dataout
 
 
 

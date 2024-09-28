@@ -4,13 +4,6 @@
     "file":"test_run_dir/Chisel_Tester_File_fetchtest/fetch.lo.fir"
   },
   {
-    "class":"firrtl.transforms.CombinationalPath",
-    "sink":"~fetch|fetch>io_Imem_fetch_out",
-    "sources":[
-      "~fetch|fetch>io_Imem_fetch_address"
-    ]
-  },
-  {
     "class":"firrtl.EmitCircuitAnnotation",
     "emitter":"firrtl.LowFirrtlEmitter"
   },

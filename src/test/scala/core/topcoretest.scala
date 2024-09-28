@@ -7,7 +7,7 @@ class topcoretest extends FreeSpec with ChiselScalatestTester{
 "Chisel Tester File topcoretest" in {
     test(new topcore){  a=>
    
-    a.clock.step(200)
+    a.clock.step(30)
     // a.io.output.expect(104.U)
     }
 

@@ -1,0 +1,85 @@
+file://<HOME>/Desktop/New%20Folder%203/Vermithor/src/main/scala/core/Imem.scala
+### file%3A%2F%2F%2Fhome%2Fshehroz%2FDesktop%2FNew%2520Folder%25203%2FVermithor%2Fsrc%2Fmain%2Fscala%2Fcore%2FImem.scala:2: error: `identifier` expected but `import` found
+import chisel3._
+^
+
+occurred in the presentation compiler.
+
+presentation compiler configuration:
+Scala version: 2.12.19
+Classpath:
+<HOME>/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.19/scala-library-2.12.19.jar [exists ]
+Options:
+
+
+
+action parameters:
+uri: file://<HOME>/Desktop/New%20Folder%203/Vermithor/src/main/scala/core/Imem.scala
+text:
+```scala
+package 
+import chisel3._
+import chisel3.util._
+// import chisel3.util.experimental.experimentalloadMemoryFromFile
+import chisel3.util.experimental.loadMemoryFromFile
+class Imem extends Module {
+val io = IO (new Bundle {
+  val data_in= Input(UInt(32.W))
+ val enable = Input(Bool())
+  val address= Input(UInt(32.W))
+  val out= Output(UInt(32.W))
+})
+val memory = Mem(256, UInt(32.W))
+ 
+
+loadMemoryFromFile(memory,"src/main/scala/pipeline/inst_file.txt")
+
+when ( io.enable ) {
+memory.write( io.address >> 2 , io.data_in  )
+}
+io.out := memory.read( io.address >> 2)
+}
+
+
+```
+
+
+
+#### Error stacktrace:
+
+```
+scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:16)
+	scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:16)
+	scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:17)
+	scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:17)
+	scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	scala.meta.internal.parsers.ScalametaParser.syntaxErrorExpected(ScalametaParser.scala:394)
+	scala.meta.internal.parsers.ScalametaParser.syntaxErrorExpected(ScalametaParser.scala:392)
+	scala.meta.internal.parsers.ScalametaParser.name(ScalametaParser.scala:1138)
+	scala.meta.internal.parsers.ScalametaParser.termName(ScalametaParser.scala:1141)
+	scala.meta.internal.parsers.ScalametaParser.qualId(ScalametaParser.scala:1214)
+	scala.meta.internal.parsers.ScalametaParser.bracelessPackageStats$1(ScalametaParser.scala:4272)
+	scala.meta.internal.parsers.ScalametaParser.$anonfun$source$1(ScalametaParser.scala:4288)
+	scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:325)
+	scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:369)
+	scala.meta.internal.parsers.ScalametaParser.source(ScalametaParser.scala:4264)
+	scala.meta.internal.parsers.ScalametaParser.entrypointSource(ScalametaParser.scala:4291)
+	scala.meta.internal.parsers.ScalametaParser.parseSourceImpl(ScalametaParser.scala:119)
+	scala.meta.internal.parsers.ScalametaParser.$anonfun$parseSource$1(ScalametaParser.scala:116)
+	scala.meta.internal.parsers.ScalametaParser.parseRuleAfterBOF(ScalametaParser.scala:58)
+	scala.meta.internal.parsers.ScalametaParser.parseRule(ScalametaParser.scala:53)
+	scala.meta.internal.parsers.ScalametaParser.parseSource(ScalametaParser.scala:116)
+	scala.meta.parsers.Parse$.$anonfun$parseSource$1(Parse.scala:30)
+	scala.meta.parsers.Parse$$anon$1.apply(Parse.scala:37)
+	scala.meta.parsers.Api$XtensionParseDialectInput.parse(Api.scala:22)
+	scala.meta.internal.semanticdb.scalac.ParseOps$XtensionCompilationUnitSource.toSource(ParseOps.scala:15)
+	scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument.toTextDocument(TextDocumentOps.scala:161)
+	scala.meta.internal.pc.SemanticdbTextDocumentProvider.textDocument(SemanticdbTextDocumentProvider.scala:54)
+	scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$semanticdbTextDocument$1(ScalaPresentationCompiler.scala:469)
+```
+#### Short summary: 
+
+file%3A%2F%2F%2Fhome%2Fshehroz%2FDesktop%2FNew%2520Folder%25203%2FVermithor%2Fsrc%2Fmain%2Fscala%2Fcore%2FImem.scala:2: error: `identifier` expected but `import` found
+import chisel3._
+^

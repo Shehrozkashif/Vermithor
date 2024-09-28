@@ -21,10 +21,14 @@ val io = IO(new Bundle{
 
   } )  
 
-    
-    // making instances
+   // making instances
     val pcmod = Module(new pc)
     val inmmod = Module(new Imem)
+
+
+
+    
+   
 
 
     // connections between  instruction memory and pc
@@ -41,10 +45,12 @@ val io = IO(new Bundle{
 
 
      // connections between instruction and fetch_module inputs
-    inmmod.io.address := pcmod.io.out // asigning pc out to instruction mem
     io.Imem_fetch_out := inmmod.io.out 
 
     when(io.Imem_fetch_out(6, 0) === 99.U || io.Imem_fetch_out(6,0) === "h6f".U) { // branch and jal and jalr
         pcmod.io.jump := true.B
+    }
+    .otherwise{
+      pcmod.io.jump := false.B
     }
 }
