@@ -314,8 +314,9 @@
 //     }
 
 //   }
-// // uuper immeidate type code
 
+
+// // uuper immeidate type code
 // when(cumod.io.instruction(6,0) === "h37".U ){ // U type lui
 // regfmod.io.wdata := immg.io.imm
 // }

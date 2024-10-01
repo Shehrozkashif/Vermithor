@@ -1,0 +1,125 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(testOnly core.topcoretest -- -DwriteVcd=1, Some(45f35b0b-75de-4204-bb0e-805e2afda531), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Test / testOnly[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 3 Scala sources to /home/shehroz/Desktop/New Folder 3/Vermithor/target/scala-2.12/classes ...[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/topcore.scala:73:10: not found: value cumod[0m
+[0m[[0m[31merror[0m] [0m[0m    when(cumod.io.instruction(6,0) === "h37".U ){ // U type lui[0m
+[0m[[0m[31merror[0m] [0m[0m         ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/topcore.scala:74:5: not found: value regfmod[0m
+[0m[[0m[31merror[0m] [0m[0m    regfmod.io.wdata := immg.io.imm[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/topcore.scala:74:25: not found: value immg[0m
+[0m[[0m[31merror[0m] [0m[0m    regfmod.io.wdata := immg.io.imm[0m
+[0m[[0m[31merror[0m] [0m[0m                        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/topcore.scala:76:10: not found: value cumod[0m
+[0m[[0m[31merror[0m] [0m[0m    when(cumod.io.instruction(6,0) === "h17".U ){ // U type auipc[0m
+[0m[[0m[31merror[0m] [0m[0m         ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/topcore.scala:77:5: not found: value alumod[0m
+[0m[[0m[31merror[0m] [0m[0m    alumod.io.op:= 0.U[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/topcore.scala:78:5: not found: value alumod[0m
+[0m[[0m[31merror[0m] [0m[0m    alumod.io.A := pcmod.io.out[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/topcore.scala:78:20: not found: value pcmod[0m
+[0m[[0m[31merror[0m] [0m[0m    alumod.io.A := pcmod.io.out[0m
+[0m[[0m[31merror[0m] [0m[0m                   ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/topcore.scala:79:5: not found: value alumod[0m
+[0m[[0m[31merror[0m] [0m[0m    alumod.io.B := immg.io.imm[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/topcore.scala:79:20: not found: value immg[0m
+[0m[[0m[31merror[0m] [0m[0m    alumod.io.B := immg.io.imm[0m
+[0m[[0m[31merror[0m] [0m[0m                   ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/topcore.scala:80:5: not found: value dmmod[0m
+[0m[[0m[31merror[0m] [0m[0m    dmmod.io.wr_enable := 1.B[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/topcore.scala:81:5: not found: value regfmod[0m
+[0m[[0m[31merror[0m] [0m[0m    regfmod.io.wdata :=   alumod.io.out [0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/topcore.scala:81:27: not found: value alumod[0m
+[0m[[0m[31merror[0m] [0m[0m    regfmod.io.wdata :=   alumod.io.out [0m
+[0m[[0m[31merror[0m] [0m[0m                          ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/topcore.scala:84:8: value output is not a member of chisel3.Bundle{val out: chisel3.UInt}[0m
+[0m[[0m[31merror[0m] [0m[0m    io.output := regfmod.io.wdata[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/topcore.scala:84:18: not found: value regfmod[0m
+[0m[[0m[31merror[0m] [0m[0m    io.output := regfmod.io.wdata[0m
+[0m[[0m[31merror[0m] [0m[0m                 ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/topcore.scala:86:10: not found: value cumod[0m
+[0m[[0m[31merror[0m] [0m[0m    when(cumod.io.instruction(6,0) === "h6f".U){   //jal[0m
+[0m[[0m[31merror[0m] [0m[0m         ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/topcore.scala:87:5: not found: value pcmod[0m
+[0m[[0m[31merror[0m] [0m[0m    pcmod.io.jump2 := 1.B[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/topcore.scala:89:5: not found: value alumod[0m
+[0m[[0m[31merror[0m] [0m[0m    alumod.io.op:= 0.U[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/topcore.scala:90:5: not found: value alumod[0m
+[0m[[0m[31merror[0m] [0m[0m    alumod.io.A := pcmod.io.out[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/topcore.scala:90:20: not found: value pcmod[0m
+[0m[[0m[31merror[0m] [0m[0m    alumod.io.A := pcmod.io.out[0m
+[0m[[0m[31merror[0m] [0m[0m                   ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/topcore.scala:91:5: not found: value alumod[0m
+[0m[[0m[31merror[0m] [0m[0m    alumod.io.B := immg.io.imm[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/topcore.scala:91:20: not found: value immg[0m
+[0m[[0m[31merror[0m] [0m[0m    alumod.io.B := immg.io.imm[0m
+[0m[[0m[31merror[0m] [0m[0m                   ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/topcore.scala:92:5: not found: value dmmod[0m
+[0m[[0m[31merror[0m] [0m[0m    dmmod.io.wr_enable := 1.B[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/topcore.scala:94:5: not found: value regfmod[0m
+[0m[[0m[31merror[0m] [0m[0m    regfmod.io.wdata :=   pcmod.io.out + 4.U[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/topcore.scala:94:27: not found: value pcmod[0m
+[0m[[0m[31merror[0m] [0m[0m    regfmod.io.wdata :=   pcmod.io.out + 4.U[0m
+[0m[[0m[31merror[0m] [0m[0m                          ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/topcore.scala:95:5: not found: value pcmod[0m
+[0m[[0m[31merror[0m] [0m[0m    pcmod.io.imm := alumod.io.out[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/topcore.scala:95:21: not found: value alumod[0m
+[0m[[0m[31merror[0m] [0m[0m    pcmod.io.imm := alumod.io.out[0m
+[0m[[0m[31merror[0m] [0m[0m                    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/topcore.scala:98:10: not found: value cumod[0m
+[0m[[0m[31merror[0m] [0m[0m    when(cumod.io.instruction(6,0) === "h67".U){   //jalr[0m
+[0m[[0m[31merror[0m] [0m[0m         ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/topcore.scala:99:5: not found: value pcmod[0m
+[0m[[0m[31merror[0m] [0m[0m    pcmod.io.jump3 := 1.B[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/topcore.scala:101:5: not found: value alumod[0m
+[0m[[0m[31merror[0m] [0m[0m    alumod.io.op:= 0.U[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/topcore.scala:102:5: not found: value alumod[0m
+[0m[[0m[31merror[0m] [0m[0m    alumod.io.A := regfmod.io.rdata1[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/topcore.scala:102:20: not found: value regfmod[0m
+[0m[[0m[31merror[0m] [0m[0m    alumod.io.A := regfmod.io.rdata1[0m
+[0m[[0m[31merror[0m] [0m[0m                   ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/topcore.scala:103:5: not found: value alumod[0m
+[0m[[0m[31merror[0m] [0m[0m    alumod.io.B := immg.io.imm[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/topcore.scala:103:20: not found: value immg[0m
+[0m[[0m[31merror[0m] [0m[0m    alumod.io.B := immg.io.imm[0m
+[0m[[0m[31merror[0m] [0m[0m                   ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/topcore.scala:104:5: not found: value dmmod[0m
+[0m[[0m[31merror[0m] [0m[0m    dmmod.io.wr_enable := 1.B[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/topcore.scala:106:5: not found: value regfmod[0m
+[0m[[0m[31merror[0m] [0m[0m    regfmod.io.wdata :=   pcmod.io.out + 4.U[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/topcore.scala:106:27: not found: value pcmod[0m
+[0m[[0m[31merror[0m] [0m[0m    regfmod.io.wdata :=   pcmod.io.out + 4.U[0m
+[0m[[0m[31merror[0m] [0m[0m                          ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/topcore.scala:107:5: not found: value pcmod[0m
+[0m[[0m[31merror[0m] [0m[0m    pcmod.io.imm := alumod.io.out[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/topcore.scala:107:21: not found: value alumod[0m
+[0m[[0m[31merror[0m] [0m[0m    pcmod.io.imm := alumod.io.out[0m
+[0m[[0m[31merror[0m] [0m[0m                    ^[0m
+[0m[[0m[31merror[0m] [0m[0m38 errors found[0m
+[0m[[0m[0mdebug[0m] [0m[0mForcing garbage collection...[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 3 s, completed Sep 30, 2024, 4:01:39 PM[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0mForcing garbage collection...[0m
+[0m[[0m[0minfo[0m] [0m[0mshutting down sbt server[0m

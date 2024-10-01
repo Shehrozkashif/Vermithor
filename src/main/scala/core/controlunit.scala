@@ -4,7 +4,7 @@ import chisel3.util._
 class controlunit extends Module{
 val io = IO(new Bundle{
 val instruction = Input(UInt(32.W))
-val func3_7 = Output(UInt(3.W))
+val func3_7 = Output(UInt(4.W))
 // val en_imem = Output(Bool())  // imem enable
 val en_reg = Output(Bool()) // reg enable
 val rd = Output(UInt(5.W))

@@ -7,7 +7,7 @@ class decode extends Module{
 val io = IO(new Bundle{
     // control unit inputs and outputs
     val decode_instruction = Input(UInt(32.W))
-    val decode_func3_7 = Output(UInt(3.W))
+    val decode_func3_7 = Output(UInt(4.W))
     // val decode_en_imem = Output(Bool())  // imem enable
 
 

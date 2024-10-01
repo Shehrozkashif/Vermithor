@@ -52,7 +52,7 @@ circuit topcore :
   module controlunit : 
     input clock : Clock
     input reset : Reset
-    output io : {flip instruction : UInt<32>, func3_7 : UInt<3>, en_reg : UInt<1>, rd : UInt<5>, rs2 : UInt<5>, rs1 : UInt<5>, imm : UInt<12>}
+    output io : {flip instruction : UInt<32>, func3_7 : UInt<4>, en_reg : UInt<1>, rd : UInt<5>, rs2 : UInt<5>, rs1 : UInt<5>, imm : UInt<12>}
     
     io.en_reg <= UInt<1>("h00") @[controlunit.scala 17:11]
     io.func3_7 <= UInt<1>("h00") @[controlunit.scala 18:12]
@@ -232,7 +232,7 @@ circuit topcore :
   module decode : 
     input clock : Clock
     input reset : Reset
-    output io : {flip decode_instruction : UInt<32>, decode_func3_7 : UInt<3>, decode_imm_out : UInt<32>, decode_regf_rdata1 : UInt<32>, decode_regf_rdata2 : UInt<32>, flip decode_regf_wdata : UInt<32>}
+    output io : {flip decode_instruction : UInt<32>, decode_func3_7 : UInt<4>, decode_imm_out : UInt<32>, decode_regf_rdata1 : UInt<32>, decode_regf_rdata2 : UInt<32>, flip decode_regf_wdata : UInt<32>}
     
     inst cumod of controlunit @[decode.scala 28:23]
     cumod.clock <= clock

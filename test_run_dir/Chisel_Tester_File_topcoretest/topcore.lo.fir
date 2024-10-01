@@ -66,7 +66,7 @@ circuit topcore :
     input clock : Clock
     input reset : UInt<1>
     input io_instruction : UInt<32>
-    output io_func3_7 : UInt<3>
+    output io_func3_7 : UInt<4>
     output io_en_reg : UInt<1>
     output io_rd : UInt<5>
     output io_rs2 : UInt<5>
@@ -108,7 +108,7 @@ circuit topcore :
     node _io_rs1_T = bits(io_instruction, 19, 15) @[controlunit.scala 45:26]
     node _io_rs2_T = bits(io_instruction, 24, 20) @[controlunit.scala 46:26]
     node _io_imm_T = bits(io_instruction, 31, 20) @[controlunit.scala 47:26]
-    io_func3_7 <= bits(_GEN_8, 2, 0)
+    io_func3_7 <= _GEN_8
     io_en_reg <= _GEN_9
     io_rd <= _io_rd_T @[controlunit.scala 44:8]
     io_rs2 <= _io_rs2_T @[controlunit.scala 46:9]
@@ -443,7 +443,7 @@ circuit topcore :
     input clock : Clock
     input reset : UInt<1>
     input io_decode_instruction : UInt<32>
-    output io_decode_func3_7 : UInt<3>
+    output io_decode_func3_7 : UInt<4>
     output io_decode_imm_out : UInt<32>
     output io_decode_regf_rdata1 : UInt<32>
     output io_decode_regf_rdata2 : UInt<32>
