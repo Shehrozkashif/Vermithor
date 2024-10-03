@@ -47,7 +47,7 @@ class topcore extends  Module {
     mem_module.io.datain_mem := execute_module.io.out_alu_execute
 
     //  execute and mem and wb conncections
-    wb_module.io.wb_datamem_in := mem_module.io.out_mem
+    wb_module.io.wb_datamem_out := mem_module.io.out_mem
     wb_module.io.wb_alu_out := execute_module.io.out_alu_execute
 
     // write back 
@@ -94,23 +94,61 @@ class topcore extends  Module {
 
 
 
+    // address calculation for store type
+when(decode_module.io.decode_instruction(6,0) === "h23".U ){
+ 
+ mem_module.io.wr_enable_mem  := 1.B
 
+  mem_module.io.addr_mem := execute_module.io.out_alu_execute(9,2)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+ 
+  when(decode_module.io.decode_instruction(14,12) === 0.U){  // Store Bytes
+    mem_module.io.datain_mem  := decode_module.io.decode_regf_rdata2 (7,0)
     
+
+  }.elsewhen(decode_module.io.decode_instruction(14,12) === 1.U){ // store halfword
+        mem_module.io.datain_mem  := decode_module.io.decode_regf_rdata2 (15,0)
+
+  
+  }.elsewhen(decode_module.io.decode_instruction(14,12) === 2.U){  // store word 
+        mem_module.io.datain_mem  := decode_module.io.decode_regf_rdata2 (31,0)
+    
+  }
+  
+}
+
+    // load
+    when(decode_module.io.decode_instruction(6,0) === "h3".U ){
+  mem_module.io.addr_mem := execute_module.io.out_alu_execute(9,2)
+  mem_module.io.rd_enable_mem := 1.B
+    when(decode_module.io.decode_instruction(14,12) === "b000".U ){ // load byte
+
+
+      decode_module.io.decode_regf_wdata := wb_module.io.wb_dataout(7,0)
+    
+
+    }.elsewhen(decode_module.io.decode_instruction(14,12) === "b001".U ){ // load half
+            
+      decode_module.io.decode_regf_wdata := wb_module.io.wb_dataout(15,0)
+
+
+
+    }.elsewhen(decode_module.io.decode_instruction(14,12) === "b010".U ){ // load word
+     decode_module.io.decode_regf_wdata := wb_module.io.wb_dataout(31,0)
+
+
+    }.elsewhen(decode_module.io.decode_instruction(14,12) === "b100".U ){ // load byte un
+      decode_module.io.decode_regf_wdata := wb_module.io.wb_dataout(7,0)
+    
+
+
+    }.elsewhen(decode_module.io.decode_instruction(14,12) === "b101".U ){ // load half
+      
+    decode_module.io.decode_regf_wdata := wb_module.io.wb_dataout(15,0)
+
+    }
+
+}
+
+
 }

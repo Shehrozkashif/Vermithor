@@ -45,6 +45,13 @@ val io = IO(new Bundle{
     .elsewhen(io.ins_execute (6,0) === "h13".U){  // I type
     alumod.io.B := io.imm_execute
     }
+    .elsewhen(io.ins_execute (6,0) === "h23".U){  // store type
+    alumod.io.B := io.imm_execute
+    }
+    .elsewhen(io.ins_execute (6,0) === "h3".U){  // load type
+    alumod.io.B := io.imm_execute
+    }
+
 
 
     // branch type instruction 

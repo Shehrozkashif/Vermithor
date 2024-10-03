@@ -1,9 +1,9 @@
 #Successful Tests
-#Thu Oct 03 01:04:33 PKT 2024
+#Fri Oct 04 02:29:42 PKT 2024
 core.Imemtest=1727536330057
 core.executetest=1727539259078
 core.decodetest=1727539200908
 core.fetchtest=1727539059191
-core.topcoretest=1727899473643
+core.topcoretest=1727990982393
 core.cutest=1725913128211
 core.datamemorytest=1727288486235

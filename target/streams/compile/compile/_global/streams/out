@@ -1,7 +1,10 @@
-[0m[[0m[31merror[0m] [0m[0m/home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/topcore.scala:87:5: overloaded method value apply with alternatives:[0m
-[0m[[0m[31merror[0m] [0m[0m  (pable: chisel3.Printable)(implicit sourceInfo: chisel3.internal.sourceinfo.SourceInfo, implicit compileOptions: chisel3.CompileOptions)Unit <and>[0m
-[0m[[0m[31merror[0m] [0m[0m  (fmt: String,data: chisel3.Bits*)(implicit sourceInfo: chisel3.internal.sourceinfo.SourceInfo, implicit compileOptions: chisel3.CompileOptions)Unit[0m
-[0m[[0m[31merror[0m] [0m[0m cannot be applied to (chisel3.UInt)[0m
-[0m[[0m[31merror[0m] [0m[0m    printf(decode_module.io.decode_imm_out)[0m
-[0m[[0m[31merror[0m] [0m[0m    ^[0m
-[0m[[0m[31merror[0m] [0m[0mone error found[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/topcore.scala:127:21: value decode_regf_wdata is not a member of chisel3.Bundle{val out_mem: chisel3.UInt; val datain_mem: chisel3.UInt; val addr_mem: chisel3.UInt; val rd_enable_mem: chisel3.Bool; val wr_enable_mem: chisel3.Bool}[0m
+[0m[[0m[31merror[0m] [0m[0m      mem_module.io.decode_regf_wdata := wb_module.io.wb_dataout(7,0)[0m
+[0m[[0m[31merror[0m] [0m[0m                    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/topcore.scala:132:26: value decode_regf_wdata is not a member of chisel3.Bundle{val out_mem: chisel3.UInt; val datain_mem: chisel3.UInt; val addr_mem: chisel3.UInt; val rd_enable_mem: chisel3.Bool; val wr_enable_mem: chisel3.Bool}[0m
+[0m[[0m[31merror[0m] [0m[0m           mem_module.io.decode_regf_wdata := wb_module.io.wb_dataout(15,0)[0m
+[0m[[0m[31merror[0m] [0m[0m                         ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/topcore.scala:137:20: value decode_regf_wdata is not a member of chisel3.Bundle{val out_mem: chisel3.UInt; val datain_mem: chisel3.UInt; val addr_mem: chisel3.UInt; val rd_enable_mem: chisel3.Bool; val wr_enable_mem: chisel3.Bool}[0m
+[0m[[0m[31merror[0m] [0m[0m     mem_module.io.decode_regf_wdata := wb_module.io.wb_dataout(31,0)[0m
+[0m[[0m[31merror[0m] [0m[0m                   ^[0m
+[0m[[0m[31merror[0m] [0m[0mthree errors found[0m
