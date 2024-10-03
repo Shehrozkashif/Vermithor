@@ -68,45 +68,49 @@ class topcore extends  Module {
     // jump 
     fetch_module.io.jump_fetch :=  execute_module.io.jump_execute
 
-  
+
+
+    when(decode_module.io.decode_instruction(6,0) === "h6f".U){   //jal
+     fetch_module.io.jump_fetch := 1.B
+    decode_module.io.decode_regf_wdata := fetch_module.io.pc_fetch_out + 4.U
+
+    }
+    when(decode_module.io.decode_instruction(6,0) === "h67".U){   //jalr
+     fetch_module.io.jump_fetch := 1.B
+     decode_module.io.decode_regf_wdata := fetch_module.io.pc_fetch_out
+      fetch_module.io.pc_imm_execute := decode_module.io.decode_regf_rdata1 + decode_module.io.decode_imm_out
+}
+
     // uuper immeidate type code
-    when(cumod.io.instruction(6,0) === "h37".U ){ // U type lui
-    regfmod.io.wdata := immg.io.imm
+    when(decode_module.io.decode_instruction(6,0) === "h37".U ){ // U type lui
+    decode_module.io.decode_regf_wdata := decode_module.io.decode_imm_out
+    print(decode_module.io.decode_imm_out)
     }
-    when(cumod.io.instruction(6,0) === "h17".U ){ // U type auipc
-    alumod.io.op:= 0.U
-    alumod.io.A := pcmod.io.out
-    alumod.io.B := immg.io.imm
-    dmmod.io.wr_enable := 1.B
-    regfmod.io.wdata :=   alumod.io.out 
-    // val temp = Cat(immg.io.imm, Fill(12 ,0.U) )
-    // regfmod.io.wdata := temp + pcmod.io.out
-    io.output := regfmod.io.wdata
+    when(decode_module.io.decode_instruction(6,0) === "h17".U ){ // U type auipc
+
+    decode_module.io.decode_regf_wdata := decode_module.io.decode_imm_out + fetch_module.io.pc_fetch_out
+
     }
-    when(cumod.io.instruction(6,0) === "h6f".U){   //jal
-    pcmod.io.jump2 := 1.B
 
-    alumod.io.op:= 0.U
-    alumod.io.A := pcmod.io.out
-    alumod.io.B := immg.io.imm
-    dmmod.io.wr_enable := 1.B
 
-    regfmod.io.wdata :=   pcmod.io.out + 4.U
-    pcmod.io.imm := alumod.io.out
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     
-    }
-    when(cumod.io.instruction(6,0) === "h67".U){   //jalr
-    pcmod.io.jump3 := 1.B
-
-    alumod.io.op:= 0.U
-    alumod.io.A := regfmod.io.rdata1
-    alumod.io.B := immg.io.imm
-    dmmod.io.wr_enable := 1.B
-
-    regfmod.io.wdata :=   pcmod.io.out + 4.U
-    pcmod.io.imm := alumod.io.out
 }
-
-
-}
-

@@ -26,21 +26,13 @@ circuit topcore :
       read-latency => 0
       write-latency => 1
       reader => io_out_MPORT
-      writer => MPORT
       read-under-write => undefined
-    node _T = shr(io_address, 2) @[Imem.scala 17:26]
-    node _T_1 = bits(_T, 9, 0)
-    node _io_out_T = shr(io_address, 2) @[Imem.scala 19:35]
-    node _io_out_T_1 = bits(_io_out_T, 9, 0) @[Imem.scala 19:22]
+    node _io_out_T = shr(io_address, 2) @[Imem.scala 19:30]
+    node _io_out_T_1 = bits(_io_out_T, 9, 0) @[Imem.scala 19:17]
     io_out <= memory.io_out_MPORT.data @[Imem.scala 19:8]
-    memory.io_out_MPORT.addr <= _io_out_T_1 @[Imem.scala 19:22]
-    memory.io_out_MPORT.en <= UInt<1>("h1") @[Imem.scala 19:22]
-    memory.io_out_MPORT.clk <= clock @[Imem.scala 19:22]
-    memory.MPORT.addr <= _T_1
-    memory.MPORT.en <= UInt<1>("h1")
-    memory.MPORT.clk <= clock
-    memory.MPORT.data <= UInt<1>("h0")
-    memory.MPORT.mask <= UInt<1>("h1")
+    memory.io_out_MPORT.addr <= _io_out_T_1 @[Imem.scala 19:17]
+    memory.io_out_MPORT.en <= UInt<1>("h1") @[Imem.scala 19:17]
+    memory.io_out_MPORT.clk <= clock @[Imem.scala 19:17]
 
   module fetch :
     input clock : Clock
@@ -571,11 +563,11 @@ circuit topcore :
     node _GEN_13 = mux(_T_7, _GEN_2, _GEN_12) @[execute.scala 60:42]
     node _GEN_14 = mux(_T_5, io_imm_execute, _GEN_1) @[execute.scala 51:37 execute.scala 54:15]
     node _GEN_15 = mux(_T_5, _GEN_13, UInt<1>("h0")) @[execute.scala 51:37 execute.scala 28:21]
-    node _io_pc_imm_added_T = add(io_imm_execute, io_pc_fetch) @[execute.scala 169:41]
-    node _io_pc_imm_added_T_1 = tail(_io_pc_imm_added_T, 1) @[execute.scala 169:41]
+    node _io_pc_imm_added_T = add(io_imm_execute, io_pc_fetch) @[execute.scala 93:41]
+    node _io_pc_imm_added_T_1 = tail(_io_pc_imm_added_T, 1) @[execute.scala 93:41]
     io_out_alu_execute <= alumod.io_out @[execute.scala 39:24]
     io_jump_execute <= _GEN_15
-    io_pc_imm_added <= _io_pc_imm_added_T_1 @[execute.scala 169:22]
+    io_pc_imm_added <= _io_pc_imm_added_T_1 @[execute.scala 93:22]
     alumod.clock <= clock
     alumod.reset <= reset
     alumod.io_A <= io_A_alu_execute @[execute.scala 37:17]
@@ -644,10 +636,10 @@ circuit topcore :
     input io_wb_alu_out : UInt<32>
     input io_ins : UInt<32>
 
-    node _io_wb_dataout_T = bits(io_ins, 6, 0) @[wb.scala 16:29]
-    node _io_wb_dataout_T_1 = eq(_io_wb_dataout_T, UInt<2>("h3")) @[wb.scala 16:34]
-    node _io_wb_dataout_T_2 = mux(_io_wb_dataout_T_1, io_wb_datamem_in, io_wb_alu_out) @[wb.scala 16:22]
-    io_wb_dataout <= _io_wb_dataout_T_2 @[wb.scala 16:16]
+    node _io_wb_dataout_T = bits(io_ins, 6, 0) @[wb.scala 17:29]
+    node _io_wb_dataout_T_1 = eq(_io_wb_dataout_T, UInt<2>("h3")) @[wb.scala 17:34]
+    node _io_wb_dataout_T_2 = mux(_io_wb_dataout_T_1, io_wb_datamem_in, io_wb_alu_out) @[wb.scala 17:22]
+    io_wb_dataout <= _io_wb_dataout_T_2 @[wb.scala 17:16]
 
   module topcore :
     input clock : Clock
@@ -659,15 +651,36 @@ circuit topcore :
     inst execute_module of execute @[topcore.scala 17:30]
     inst mem_module of mem @[topcore.scala 18:26]
     inst wb_module of wb @[topcore.scala 19:25]
+    node _T = bits(decode_module.io_decode_instruction, 6, 0) @[topcore.scala 73:45]
+    node _T_1 = eq(_T, UInt<7>("h6f")) @[topcore.scala 73:51]
+    node _decode_module_io_decode_regf_wdata_T = add(fetch_module.io_pc_fetch_out, UInt<3>("h4")) @[topcore.scala 75:72]
+    node _decode_module_io_decode_regf_wdata_T_1 = tail(_decode_module_io_decode_regf_wdata_T, 1) @[topcore.scala 75:72]
+    node _GEN_0 = mux(_T_1, UInt<1>("h1"), execute_module.io_jump_execute) @[topcore.scala 73:63 topcore.scala 74:33 topcore.scala 69:32]
+    node _GEN_1 = mux(_T_1, _decode_module_io_decode_regf_wdata_T_1, wb_module.io_wb_dataout) @[topcore.scala 73:63 topcore.scala 75:40 topcore.scala 54:41]
+    node _T_2 = bits(decode_module.io_decode_instruction, 6, 0) @[topcore.scala 78:45]
+    node _T_3 = eq(_T_2, UInt<7>("h67")) @[topcore.scala 78:51]
+    node _fetch_module_io_pc_imm_execute_T = add(decode_module.io_decode_regf_rdata1, decode_module.io_decode_imm_out) @[topcore.scala 81:77]
+    node _fetch_module_io_pc_imm_execute_T_1 = tail(_fetch_module_io_pc_imm_execute_T, 1) @[topcore.scala 81:77]
+    node _GEN_2 = mux(_T_3, UInt<1>("h1"), _GEN_0) @[topcore.scala 78:63 topcore.scala 79:33]
+    node _GEN_3 = mux(_T_3, fetch_module.io_pc_fetch_out, _GEN_1) @[topcore.scala 78:63 topcore.scala 80:41]
+    node _GEN_4 = mux(_T_3, _fetch_module_io_pc_imm_execute_T_1, execute_module.io_pc_imm_added) @[topcore.scala 78:63 topcore.scala 81:38 topcore.scala 27:36]
+    node _T_4 = bits(decode_module.io_decode_instruction, 6, 0) @[topcore.scala 85:45]
+    node _T_5 = eq(_T_4, UInt<6>("h37")) @[topcore.scala 85:51]
+    node _GEN_5 = mux(_T_5, decode_module.io_decode_imm_out, _GEN_3) @[topcore.scala 85:64 topcore.scala 86:40]
+    node _T_6 = bits(decode_module.io_decode_instruction, 6, 0) @[topcore.scala 89:45]
+    node _T_7 = eq(_T_6, UInt<5>("h17")) @[topcore.scala 89:51]
+    node _decode_module_io_decode_regf_wdata_T_2 = add(decode_module.io_decode_imm_out, fetch_module.io_pc_fetch_out) @[topcore.scala 91:75]
+    node _decode_module_io_decode_regf_wdata_T_3 = tail(_decode_module_io_decode_regf_wdata_T_2, 1) @[topcore.scala 91:75]
+    node _GEN_6 = mux(_T_7, _decode_module_io_decode_regf_wdata_T_3, _GEN_5) @[topcore.scala 89:64 topcore.scala 91:40]
     io_out <= wb_module.io_wb_dataout @[topcore.scala 65:12]
     fetch_module.clock <= clock
     fetch_module.reset <= reset
-    fetch_module.io_pc_imm_execute <= execute_module.io_pc_imm_added @[topcore.scala 27:36]
-    fetch_module.io_jump_fetch <= execute_module.io_jump_execute @[topcore.scala 69:32]
+    fetch_module.io_pc_imm_execute <= _GEN_4
+    fetch_module.io_jump_fetch <= _GEN_2
     decode_module.clock <= clock
     decode_module.reset <= reset
     decode_module.io_decode_instruction <= fetch_module.io_Imem_fetch_out @[topcore.scala 24:41]
-    decode_module.io_decode_regf_wdata <= wb_module.io_wb_dataout @[topcore.scala 54:41]
+    decode_module.io_decode_regf_wdata <= _GEN_6
     execute_module.clock <= clock
     execute_module.reset <= reset
     execute_module.io_A_alu_execute <= decode_module.io_decode_regf_rdata1 @[topcore.scala 34:37]

@@ -14,8 +14,8 @@ val memory = Mem(1024, UInt(32.W))
 loadMemoryFromFile(memory,"src/main/scala/core/inst_file.txt")
 
 
-memory.write( io.address >> 2 , 0.U  )
+// memory.write( io.address >> 2  )
 
-io.out := memory.read( io.address >> 2)
+io.out := memory( io.address >> 2)
 }
 

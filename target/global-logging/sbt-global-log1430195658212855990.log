@@ -1,0 +1,12 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(testOnly core.topcoretest -- -DwriteVcd=1, Some(2f12ca2b-60e2-4a6f-89b9-a91ab55f34fa), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Test / testOnly[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /home/shehroz/Desktop/New Folder 3/Vermithor/target/scala-2.12/classes ...[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shehroz/Desktop/New Folder 3/Vermithor/src/main/scala/core/topcore.scala:81:58: value ecode_regf_rdata1 is not a member of chisel3.Bundle{val decode_instruction: chisel3.UInt; val decode_func3_7: chisel3.UInt; val decode_imm_out: chisel3.UInt; val decode_regf_rdata1: chisel3.UInt; val decode_regf_rdata2: chisel3.UInt; val decode_regf_wdata: chisel3.UInt}[0m
+[0m[[0m[31merror[0m] [0m[0m      fetch_module.io.pc_imm_execute := decode_module.io.ecode_regf_rdata1 + decode_module.io.decode_imm_out[0m
+[0m[[0m[31merror[0m] [0m[0m                                                         ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
+[0m[[0m[0mdebug[0m] [0m[0mForcing garbage collection...[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 2 s, completed Oct 2, 2024, 12:27:35 AM[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m

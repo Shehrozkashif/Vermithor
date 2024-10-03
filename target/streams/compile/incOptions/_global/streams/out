@@ -1,19 +1,2 @@
 [0m[[0m[0mdebug[0m] [0m[0mCreated transactional ClassFileManager with tempDir = /home/shehroz/Desktop/New Folder 3/Vermithor/target/scala-2.12/classes.bak[0m
-[0m[[0m[0mdebug[0m] [0m[0mAbout to delete class files:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	execute.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	execute$$anon$1.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	topcore$$anon$1.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	topcore.class[0m
-[0m[[0m[0mdebug[0m] [0m[0mWe backup class files:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	execute.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	execute$$anon$1.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	topcore$$anon$1.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	topcore.class[0m
-[0m[[0m[0mdebug[0m] [0m[0mRolling back changes to class files.[0m
-[0m[[0m[0mdebug[0m] [0m[0mRemoving generated classes:[0m
-[0m[[0m[0mdebug[0m] [0m[0mRestoring class files: [0m
-[0m[[0m[0mdebug[0m] [0m[0m	execute.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	execute$$anon$1.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	topcore.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	topcore$$anon$1.class[0m
 [0m[[0m[0mdebug[0m] [0m[0mRemoving the temporary directory used for backing up class files: /home/shehroz/Desktop/New Folder 3/Vermithor/target/scala-2.12/classes.bak[0m

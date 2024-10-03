@@ -23,13 +23,9 @@ circuit topcore :
     output io : {flip address : UInt<32>, out : UInt<32>}
     
     cmem memory : UInt<32>[1024] @[Imem.scala 11:17]
-    node _T = shr(io.address, 2) @[Imem.scala 17:26]
-    node _T_1 = bits(_T, 9, 0)
-    write mport MPORT = memory[_T_1], clock
-    MPORT <= UInt<1>("h00")
-    node _io_out_T = shr(io.address, 2) @[Imem.scala 19:35]
-    node _io_out_T_1 = bits(_io_out_T, 9, 0) @[Imem.scala 19:22]
-    read mport io_out_MPORT = memory[_io_out_T_1], clock @[Imem.scala 19:22]
+    node _io_out_T = shr(io.address, 2) @[Imem.scala 19:30]
+    node _io_out_T_1 = bits(_io_out_T, 9, 0) @[Imem.scala 19:17]
+    infer mport io_out_MPORT = memory[_io_out_T_1], clock @[Imem.scala 19:17]
     io.out <= io_out_MPORT @[Imem.scala 19:8]
     
   module fetch : 
@@ -413,9 +409,9 @@ circuit topcore :
                     skip @[execute.scala 81:66]
                   skip @[execute.scala 80:48]
       skip @[execute.scala 51:37]
-    node _io_pc_imm_added_T = add(io.imm_execute, io.pc_fetch) @[execute.scala 169:41]
-    node _io_pc_imm_added_T_1 = tail(_io_pc_imm_added_T, 1) @[execute.scala 169:41]
-    io.pc_imm_added <= _io_pc_imm_added_T_1 @[execute.scala 169:22]
+    node _io_pc_imm_added_T = add(io.imm_execute, io.pc_fetch) @[execute.scala 93:41]
+    node _io_pc_imm_added_T_1 = tail(_io_pc_imm_added_T, 1) @[execute.scala 93:41]
+    io.pc_imm_added <= _io_pc_imm_added_T_1 @[execute.scala 93:22]
     
   module datamemory : 
     input clock : Clock
@@ -452,10 +448,10 @@ circuit topcore :
     input reset : Reset
     output io : {wb_dataout : UInt<32>, flip wb_datamem_in : UInt<32>, flip wb_alu_out : UInt<32>, flip ins : UInt<32>}
     
-    node _io_wb_dataout_T = bits(io.ins, 6, 0) @[wb.scala 16:29]
-    node _io_wb_dataout_T_1 = eq(_io_wb_dataout_T, UInt<2>("h03")) @[wb.scala 16:34]
-    node _io_wb_dataout_T_2 = mux(_io_wb_dataout_T_1, io.wb_datamem_in, io.wb_alu_out) @[wb.scala 16:22]
-    io.wb_dataout <= _io_wb_dataout_T_2 @[wb.scala 16:16]
+    node _io_wb_dataout_T = bits(io.ins, 6, 0) @[wb.scala 17:29]
+    node _io_wb_dataout_T_1 = eq(_io_wb_dataout_T, UInt<2>("h03")) @[wb.scala 17:34]
+    node _io_wb_dataout_T_2 = mux(_io_wb_dataout_T_1, io.wb_datamem_in, io.wb_alu_out) @[wb.scala 17:22]
+    io.wb_dataout <= _io_wb_dataout_T_2 @[wb.scala 17:16]
     
   module topcore : 
     input clock : Clock
@@ -496,4 +492,33 @@ circuit topcore :
     wb_module.io.ins <= fetch_module.io.Imem_fetch_out @[topcore.scala 60:22]
     io.out <= wb_module.io.wb_dataout @[topcore.scala 65:12]
     fetch_module.io.jump_fetch <= execute_module.io.jump_execute @[topcore.scala 69:32]
+    node _T = bits(decode_module.io.decode_instruction, 6, 0) @[topcore.scala 73:45]
+    node _T_1 = eq(_T, UInt<7>("h06f")) @[topcore.scala 73:51]
+    when _T_1 : @[topcore.scala 73:63]
+      fetch_module.io.jump_fetch <= UInt<1>("h01") @[topcore.scala 74:33]
+      node _decode_module_io_decode_regf_wdata_T = add(fetch_module.io.pc_fetch_out, UInt<3>("h04")) @[topcore.scala 75:72]
+      node _decode_module_io_decode_regf_wdata_T_1 = tail(_decode_module_io_decode_regf_wdata_T, 1) @[topcore.scala 75:72]
+      decode_module.io.decode_regf_wdata <= _decode_module_io_decode_regf_wdata_T_1 @[topcore.scala 75:40]
+      skip @[topcore.scala 73:63]
+    node _T_2 = bits(decode_module.io.decode_instruction, 6, 0) @[topcore.scala 78:45]
+    node _T_3 = eq(_T_2, UInt<7>("h067")) @[topcore.scala 78:51]
+    when _T_3 : @[topcore.scala 78:63]
+      fetch_module.io.jump_fetch <= UInt<1>("h01") @[topcore.scala 79:33]
+      decode_module.io.decode_regf_wdata <= fetch_module.io.pc_fetch_out @[topcore.scala 80:41]
+      node _fetch_module_io_pc_imm_execute_T = add(decode_module.io.decode_regf_rdata1, decode_module.io.decode_imm_out) @[topcore.scala 81:77]
+      node _fetch_module_io_pc_imm_execute_T_1 = tail(_fetch_module_io_pc_imm_execute_T, 1) @[topcore.scala 81:77]
+      fetch_module.io.pc_imm_execute <= _fetch_module_io_pc_imm_execute_T_1 @[topcore.scala 81:38]
+      skip @[topcore.scala 78:63]
+    node _T_4 = bits(decode_module.io.decode_instruction, 6, 0) @[topcore.scala 85:45]
+    node _T_5 = eq(_T_4, UInt<6>("h037")) @[topcore.scala 85:51]
+    when _T_5 : @[topcore.scala 85:64]
+      decode_module.io.decode_regf_wdata <= decode_module.io.decode_imm_out @[topcore.scala 86:40]
+      skip @[topcore.scala 85:64]
+    node _T_6 = bits(decode_module.io.decode_instruction, 6, 0) @[topcore.scala 89:45]
+    node _T_7 = eq(_T_6, UInt<5>("h017")) @[topcore.scala 89:51]
+    when _T_7 : @[topcore.scala 89:64]
+      node _decode_module_io_decode_regf_wdata_T_2 = add(decode_module.io.decode_imm_out, fetch_module.io.pc_fetch_out) @[topcore.scala 91:75]
+      node _decode_module_io_decode_regf_wdata_T_3 = tail(_decode_module_io_decode_regf_wdata_T_2, 1) @[topcore.scala 91:75]
+      decode_module.io.decode_regf_wdata <= _decode_module_io_decode_regf_wdata_T_3 @[topcore.scala 91:40]
+      skip @[topcore.scala 89:64]
     

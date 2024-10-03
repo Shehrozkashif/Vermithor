@@ -13,6 +13,7 @@ class wb extends  Module {
   })
 
 
+
   io.wb_dataout:= Mux(io.ins(6,0)=== 3.U , io.wb_datamem_in,io.wb_alu_out)
 
 }
